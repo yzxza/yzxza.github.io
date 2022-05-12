@@ -119,20 +119,6 @@
 
   
   <url>
-    <loc>https://yzxza.github.io/tags/%E5%8E%86%E5%8F%B2/</loc>
-    <lastmod>2022-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://yzxza.github.io/tags/%E4%B8%AD%E4%B8%96%E7%BA%AA/</loc>
-    <lastmod>2022-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://yzxza.github.io/tags/%E6%8B%BE%E5%8F%B6%E9%9B%86/</loc>
     <lastmod>2022-05-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -161,14 +147,28 @@
   </url>
   
   <url>
-    <loc>https://yzxza.github.io/tags/%E6%98%9F%E9%99%85%E7%A9%BF%E8%B6%8A/</loc>
+    <loc>https://yzxza.github.io/tags/%E7%BE%8E%E9%A3%9F/</loc>
     <lastmod>2022-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://yzxza.github.io/tags/%E7%BE%8E%E9%A3%9F/</loc>
+    <loc>https://yzxza.github.io/tags/%E5%8E%86%E5%8F%B2/</loc>
+    <lastmod>2022-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yzxza.github.io/tags/%E4%B8%AD%E4%B8%96%E7%BA%AA/</loc>
+    <lastmod>2022-05-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yzxza.github.io/tags/%E6%98%9F%E9%99%85%E7%A9%BF%E8%B6%8A/</loc>
     <lastmod>2022-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -184,14 +184,14 @@
 
   
   <url>
-    <loc>https://yzxza.github.io/categories/%E5%8E%86%E5%8F%B2/</loc>
+    <loc>https://yzxza.github.io/categories/%E6%8B%BE%E5%8F%B6%E9%9B%86/</loc>
     <lastmod>2022-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://yzxza.github.io/categories/%E6%8B%BE%E5%8F%B6%E9%9B%86/</loc>
+    <loc>https://yzxza.github.io/categories/%E5%8E%86%E5%8F%B2/</loc>
     <lastmod>2022-05-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
