@@ -1,36 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>寄予 加洛林</title>
-    <url>/2018/08/10/text1/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>征战的旅途中<br>四面炊烟袅袅<br>它傲然当升于一片混乱之中<br>谱写了第一个欧洲的神话</p>
+    <title>2024嗯嗯嗯啊</title>
+    <url>/2024/01/16/text19/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>好久不见my blog</p>
 <span id="more"></span>
 
-<p>那时的墨洛温<br>依然黯然相存<br>一场勇敢的谋略<br>这个势力上升的王朝却欣然受到教会青睐</p>
-<p>加洛林<br>不知道它有多幸运<br>查理曼的统治<br>更是浓墨重彩</p>
-<p>这两个世纪的叹息<br>显现出它峥峥的气势<br>在这个欧洲勉强享受过自由的时代<br>一个基督世界的构想迎然诞生</p>
-<p>可依然却<br>再见<br>加洛林
-               </p>
+<p>最近开始思考生命的意义<br>如果一定赋予什么意义，那就是体验吧<br>很多事情不是一定会按照计划来的，见招拆招<br>日落归山海，山海藏深意<br>毕业后给自己定的在上海成长计划也马上接近two years<br>我的想法也仍旧没有变化<br>一直探寻着生命的无限可能，却也又趋向于平淡的生活<br>也会是我未来的方向吧<br>2023好像很快，这一年发生了许多些许难过却似乎还有意义的事情，嗯…还有很多开心的事<br>2024希望我早日上岸、持续可爱、元气满满</p>
 ]]></content>
-      <categories>
-        <category>历史</category>
-      </categories>
-      <tags>
-        <tag>历史</tag>
-        <tag>中世纪</tag>
-      </tags>
   </entry>
   <entry>
-    <title>我的公司电脑也可以更博客了</title>
-    <url>/2023/04/28/text15/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>测试ing<br>算是今天上班完成的第一件事。<br>但却不知道可以写点什么</p>
+    <title>听了世界人工智能大会的感受-DAY1</title>
+    <url>/2023/07/06/text17/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>上周报了人工智能大会，打算明天去现场瞅瞅，今天就线上看了一波直播。</p>
 <span id="more"></span>
 
-
-<p>嗯。。。我好困。。。</p>
+<p>记了些笔记</p>
+<h2 id="上海人工智能实验室"><a href="#上海人工智能实验室" class="headerlink" title="上海人工智能实验室"></a>上海人工智能实验室</h2><p><img src="/images/%E8%AE%BA%E5%9D%9B1.png" alt="图1"></p>
+<p>书生多模态:没听这部分</p>
+<p>书生浦语：<br>上海人工智能实验室和商汤科技等联合开发<br>开源体系 70亿参数 8k语境窗口  10000亿tokens<br>LLaMA-7B    InternLM-7B<br>开放数据平台<br>30+模态  5400+数据集<br>偏好对其  微调（支持复杂的梳理，可引入外部工具）</p>
+<p>书生天际（Landmark 天际）：<br>全球首个三维实景大模型<br>GridNeRF<br>UniAD：感知决策一体化端到端自助驾驶大模型<br>感觉好像有点厉害</p>
+<p>通才智能体GITM 完全解锁《我的世界》<br><img src="/images/%E8%AE%BA%E5%9D%9B3.png" alt="图2"><br><img src="/images/%E8%AE%BA%E5%9D%9B2.png" alt="图3"></p>
+<h2 id="微软"><a href="#微软" class="headerlink" title="微软"></a>微软</h2><p>特点在于：企业级服务<br>一站式 Azure Open AI<br>可定制 可优化 可集成<br>Codex DALL-E2<br>Plugin插件 速度快<br> prompt 提示工程<br> 私域数据集成</p>
+<p>数据负债<br>AI员工<br>驾驭AI</p>
+<p>Microsoft 365 Copilot<br>通过Plugins 插件扩展</p>
+<p><img src="/images/%E8%AE%BA%E5%9D%9B4.png" alt="图4"></p>
+<h2 id="京东"><a href="#京东" class="headerlink" title="京东"></a>京东</h2><p>言犀模型</p>
+<h2 id="晶泰科技"><a href="#晶泰科技" class="headerlink" title="晶泰科技"></a>晶泰科技</h2><p>1、虚拟数据<br>2、2020至今，全球范围内的自动化机器人实验室<br>基础设施</p>
+<p>文献（负样本缺乏）  生物学复杂度高<br>专利、公开<br>从实验能力 真实数据开始</p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>1.创新型思维，而非纯学技术<br>2.真正产业化仍然还需要时间<br>3.避免复制模型吧，不要为了AI而AI，每家都在搞大模型，但需要有点优势才是。</p>
 ]]></content>
+      <categories>
+        <category>工作</category>
+      </categories>
       <tags>
-        <tag>拾叶集</tag>
+        <tag>世界人工智能大会</tag>
+        <tag>工作笔记</tag>
       </tags>
   </entry>
   <entry>
@@ -73,206 +78,6 @@
       <tags>
         <tag>心理学</tag>
         <tag>心理咨询</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>听了世界人工智能大会的感受-DAY1</title>
-    <url>/2023/07/06/text17/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>上周报了人工智能大会，打算明天去现场瞅瞅，今天就线上看了一波直播。</p>
-<span id="more"></span>
-
-<p>记了些笔记</p>
-<h2 id="上海人工智能实验室"><a href="#上海人工智能实验室" class="headerlink" title="上海人工智能实验室"></a>上海人工智能实验室</h2><p><img src="/images/%E8%AE%BA%E5%9D%9B1.png" alt="图1"></p>
-<p>书生多模态:没听这部分</p>
-<p>书生浦语：<br>上海人工智能实验室和商汤科技等联合开发<br>开源体系 70亿参数 8k语境窗口  10000亿tokens<br>LLaMA-7B    InternLM-7B<br>开放数据平台<br>30+模态  5400+数据集<br>偏好对其  微调（支持复杂的梳理，可引入外部工具）</p>
-<p>书生天际（Landmark 天际）：<br>全球首个三维实景大模型<br>GridNeRF<br>UniAD：感知决策一体化端到端自助驾驶大模型<br>感觉好像有点厉害</p>
-<p>通才智能体GITM 完全解锁《我的世界》<br><img src="/images/%E8%AE%BA%E5%9D%9B3.png" alt="图2"><br><img src="/images/%E8%AE%BA%E5%9D%9B2.png" alt="图3"></p>
-<h2 id="微软"><a href="#微软" class="headerlink" title="微软"></a>微软</h2><p>特点在于：企业级服务<br>一站式 Azure Open AI<br>可定制 可优化 可集成<br>Codex DALL-E2<br>Plugin插件 速度快<br> prompt 提示工程<br> 私域数据集成</p>
-<p>数据负债<br>AI员工<br>驾驭AI</p>
-<p>Microsoft 365 Copilot<br>通过Plugins 插件扩展</p>
-<p><img src="/images/%E8%AE%BA%E5%9D%9B4.png" alt="图4"></p>
-<h2 id="京东"><a href="#京东" class="headerlink" title="京东"></a>京东</h2><p>言犀模型</p>
-<h2 id="晶泰科技"><a href="#晶泰科技" class="headerlink" title="晶泰科技"></a>晶泰科技</h2><p>1、虚拟数据<br>2、2020至今，全球范围内的自动化机器人实验室<br>基础设施</p>
-<p>文献（负样本缺乏）  生物学复杂度高<br>专利、公开<br>从实验能力 真实数据开始</p>
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>1.创新型思维，而非纯学技术<br>2.真正产业化仍然还需要时间<br>3.避免复制模型吧，不要为了AI而AI，每家都在搞大模型，但需要有点优势才是。</p>
-]]></content>
-      <categories>
-        <category>工作</category>
-      </categories>
-      <tags>
-        <tag>世界人工智能大会</tag>
-        <tag>工作笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>深度学习的一些重要思想</title>
-    <url>/2022/08/16/text12/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>一些非常简略的笔记。</p>
-<span id="more"></span>
-
-<h1 id="神经网络基础"><a href="#神经网络基础" class="headerlink" title="神经网络基础"></a>神经网络基础</h1><p>线性函数→→→每个类别的得分<br>$f\left ( x,w\right)+b$   w是权重参数、b是偏置参数</p>
-<p>权重参数表示在某个类别中，某权重的重要性<br>w矩阵是优化而来的，需要不断改变w参数</p>
-<h2 id="损失函数："><a href="#损失函数：" class="headerlink" title="损失函数："></a>损失函数：</h2><p>$L_{i} &#x3D; {\textstyle \sum_{j≠y_{i} }^{}} max(0，S_{j}-S_{y_{i} } +1)$<br>S_{j}表示错误      S_{y_{i} }表示正确         1是指容忍程度<br>要求正确类别的得分起码比错误类别多1以上</p>
-<h2 id="R-w-正则化"><a href="#R-w-正则化" class="headerlink" title="R(w) 正则化"></a>R(w) 正则化</h2><p>加入正则化项缓解过拟合</p>
-<h2 id="Softmax分类器"><a href="#Softmax分类器" class="headerlink" title="Softmax分类器"></a>Softmax分类器</h2><p>将得分值转化为损失值<br>Sigmoid函数将的分值转化为概率</p>
-<p>概率越接近于1，损失越小</p>
-<h2 id="前向传播："><a href="#前向传播：" class="headerlink" title="前向传播："></a>前向传播：</h2><p>$f\left ( x,w \right ) +b$   得出损失值</p>
-<h2 id="反向传播："><a href="#反向传播：" class="headerlink" title="反向传播："></a>反向传播：</h2><p>更新w，以优化损失函数<br>链式求导法则</p>
-<p>输入层表示多个特征的输入</p>
-<p>非线性变化加在每一部矩阵计算之后</p>
-<blockquote>
-<p>神经元个数越多越好，但不可过拟合</p>
-</blockquote>
-<blockquote>
-<p>惩罚力度过小会导致过拟合<br>$\lambda &#x3D;0.001 $<br>$\lambda &#x3D;0.01 $<br>$\lambda &#x3D;0.1$</p>
-</blockquote>
-<blockquote>
-<p>参数个数即矩阵的大小，越大越容易过拟合<br>64 $\quad$  128   $\quad$     256   $\quad$    112</p>
-</blockquote>
-<p>激活函数（非线性变换）</p>
-<p>由于sigmoid函数梯度为0时可能发生梯度消失现象，于是多采用RELU函数</p>
-<p>参数初始化：根据随机策略来进行初始化</p>
-<p>drop-out：杀死神经元，防止网络搜索过于复杂</p>
-<h1 id="计算机视觉"><a href="#计算机视觉" class="headerlink" title="计算机视觉"></a>计算机视觉</h1><p>检测、分类与检索、超分辨率重构、医学细胞检测、OCR识别、无人驾驶、人脸识别</p>
-<h2 id="卷积网络："><a href="#卷积网络：" class="headerlink" title="卷积网络："></a>卷积网络：</h2><p>卷积操作：旋转180度，与另外一个矩阵做点积</p>
-<p><strong>滑动窗口步长：</strong>    7<em>7  →   5</em>5   特征丰富<br>7<em>7  →   3</em>3   特征不丰富<br>常用为5*5较多的，但是计算效率会低</p>
-<p><strong>卷积核尺寸：</strong>  选择区域大小<br>边缘填充（+pad1）：由于中间点提取次数较多，外面加一圈，保证边界信息充分利用<br>卷积核尺寸：得到多少个特征图（10,20,30）</p>
-<p><strong>池化层：</strong><br>224<em>224</em>64 → 112<em>112</em>64</p>
-<p>最大池化，平均池化：分成每一部分选最大&#x2F;平均</p>
-<p>两次卷积，一次池化<br>CONV RELU CONV RELU POOL CONV RELU CONV RELU POOL CONV RELU CONV RELU POOL FC(全连接层)<br>带参数计算的称为一层，CONV,FC ，此网络有7层</p>
-<h2 id="经典网络"><a href="#经典网络" class="headerlink" title="经典网络"></a>经典网络</h2><p><strong>Alexnet：</strong><br>11*11的卷积核、步长为4，不加pad，不常见</p>
-<p><strong>VGG:</strong><br>3*3的卷积核，16&#x2F;19层，pooling后弥补损失，特征翻倍，16层的效果比30都好</p>
-<p><strong>Resnet：</strong><br>跳过某些层，把深度学习救活，层数越高，效果合理变好。</p>
-<p>堆叠小的卷积核所需参数更少，卷积过程越多，特征提取越细致，越不会增大权重参数个数，典型案例就是VGG</p>
-<h1 id="递归神经网络RNN"><a href="#递归神经网络RNN" class="headerlink" title="递归神经网络RNN"></a>递归神经网络RNN</h1><p>用于自然语言处理<br>word2vec<br>50-300维向量<br>相似的词在特征表达中比较相似</p>
-<p>CBOW:上下文→中心词<br>Skip-gram：中心词→上下文</p>
-<p>A→B(十万)<br>A,B→0.9<br>负采样模型，由于target全为1，需要加入target全为0的词，target全为0的词不在语料库中，负样本是人为构建的</p>
-<h1 id="Keras框架"><a href="#Keras框架" class="headerlink" title="Keras框架"></a>Keras框架</h1><p>以Tenseflow为后端，可以实现简单的api操作</p>
-<p>drop-out<br>学习率越小越好<br>权重参数的初始化方法（均匀、高斯）<br>初始化标准差（越小，过拟合风险越低）</p>
-]]></content>
-      <categories>
-        <category>工作</category>
-      </categories>
-      <tags>
-        <tag>DL基础</tag>
-        <tag>学习笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>不知自己会喜欢何种生活状态呢</title>
-    <url>/2022/12/04/text13/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>入职差不多5个月了，而入职也意味着我就这样开始了一段新的生活。可是最近愈发发现自己的状态似乎没有刚入职那般热情了，这样子持续打工+玩耍的状态很充实，却一下子会看不到未来的路。</p>
-<span id="more"></span>
-
-<p>今天躺着的时候偶然开始翻起了一个个博客，发现博客中记满了朴素但真挚的生活感想。有哲思，有小故事，有少年得意的成就记叙，也有人到中年的感怀伤时……但我发现被文字记录下来的瞬间无论何种却是无比的细腻且有趣。</p>
-<p>我的未来呢，做完管培期后，gap一下去旅居的梦想可以实现嘛？</p>
-<p>制定一个后续自律起来的小计划吧</p>
-<blockquote>
-<p>周一二四 运动 达40分 其他日子酌情<br>浙考前坚持周1-4专注刷两个部分的套题<br>拒绝刷抖音 适当小红书 小红书主要充当攻略搜索功能<br>晚上回来后煮粥蒸蛋 不乱吃外卖<br>下班后拒绝刷手机、聊天，回信息放在睡前<br>把大量晚间用在读已买的纸质书上<br>每周看一部电影<br>睡前、午休前刷手机 看电视剧<br>上班时间抽空放播客</p>
-</blockquote>
-<p>8:00——10:00 吃饭&#x2F;学习&#x2F;看书&#x2F;运动<br>10:00—— 洗澡&#x2F;练琴&#x2F;玩手机睡觉 </p>
-]]></content>
-      <categories>
-        <category>拾叶集</category>
-      </categories>
-      <tags>
-        <tag>拾叶集</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>不要温和地走进那个良夜</title>
-    <url>/2022/04/30/text3/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>好久都没看科幻了，突然就怀念起了高中时追科幻与冒险片子的日子。今天看完了诺兰的太空科幻作《星际穿越》，真的好牛啊！技术与情感完美融合！</p>
-<p>希望自己会记得剧情的独到之处，这里作一个简要的摘要与总结：</p>
-<span id="more"></span>
-
-<blockquote>
-<p><strong>背景：</strong>地球陷入了一种生存危机，作物减产引发饥荒，沙尘暴等恶劣状况发生，人类未来面临挑战</p>
-</blockquote>
-<blockquote>
-<p><strong>主人公：</strong>曾经美国国家航空航天局的工程师和航天飞机的驾驶员库珀</p>
-</blockquote>
-<blockquote>
-<p><strong>导火线：</strong>女儿墨菲的书房发现奇怪的重力场现象。一场沙尘暴在墨菲房间中留下二进制坐标，二人驱车到达坐标位置后发现那是北美空防司令部（美国国家航空航天局的秘密基地）。基地负责人布兰德教授向库珀透露土星附近出现了虫洞，认为外星智慧有意协助人类前往遥远星系移居，总署在约十年前已派遣了十二名科学家穿越该虫洞，各自降落在多个被认为有居住可能性的行星上，传送回来的资料显示其中一个以黑洞“卡冈图雅”为中心的行星系统有三颗星球可能适合殖民</p>
-</blockquote>
-<blockquote>
-<p><strong>三颗星球：</strong>米勒（Miller）、埃德蒙斯（Edmunds）和曼恩（Mann）</p>
-</blockquote>
-<blockquote>
-<p><strong>行动：</strong>库珀应布兰德教授的要求，担任航天器永恒号（Endurance）的驾驶员前往执行拉撒路项目</p>
-</blockquote>
-<blockquote>
-<p><strong>计划：</strong>A计划为确认星球适居性后，透过布兰德教授的重力方程协助地球人类前往殖民；B计划为带着多个人类胚胎进行殖民，留在地球的人类则会灭绝</p>
-</blockquote>
-<blockquote>
-<p><strong>实际行动轨迹：</strong><br> 米勒星球：地表只有一片汪洋且经常出现巨型海啸，其海啸的来袭使道尔丧生，并且延误了回程。众人返回永恒号后发现对罗米利而言已度过了超过23年的时间<br> 曼恩星球：所有的数据都是曼恩为了让自己获救而伪造成的。曼恩一开始就知道A计划无法实现，因为无法进入黑洞获得黑洞引力数据。为了偷飞船逃生，曼恩进行了一系列黑操作，企图杀死男主。曼恩在与永恒号并未完全对接成功的情况下打开气闸，产生的失控减压使他身亡，并导致永恒号失控旋转，库珀成功对接永恒号使其稳定下来<br> 埃德蒙斯：女主到达。可适宜人类生存</p>
-</blockquote>
-<blockquote>
-<p><strong>黑洞：</strong>库珀让自己驾驶的漫游者号于耗尽燃料后分离并进入黑洞，但在漫游者号被毁弹射逃生后，库珀发现自己身处一个非线性流动的第五维度超正方体。库珀至此明白了未来超越了时空并进化到较高文明的人类创造了四维超正方体和虫洞以拯救过去的人类，也明白自己亦是墨菲儿时遇上的幽灵、引导自己参与拉撒路项目（这是一个命定悖论）。库珀把塔斯取得的黑洞数据以引力波透过墨菲的手表传送给她；成人墨菲在回忆此事时终于了发现父亲的讯息，她完成了布兰德教授的方程使人类得以离开地球，前往环绕着土星运行的空间站居住</p>
-</blockquote>
-<blockquote>
-<p><strong>结局：</strong>四维超正方体空间在数据传送完毕后关闭，库珀被送离虫洞回到土星附近，被土星宇宙殖民地人员救起。此时他已离开地球91年，理论上而言已是124岁</p>
-</blockquote>
-<!-- ## 背景
-
-地球陷入了一种生存危机，作物减产引发饥荒，沙尘暴等恶劣状况发生，人类未来面临挑战
-
-## 主人公
-
-曾经美国国家航空航天局的工程师和航天飞机的驾驶员库珀
-
-## 导火线
-
-女儿墨菲的书房发现奇怪的重力场现象。一场沙尘暴在墨菲房间中留下二进制坐标，二人驱车到达坐标位置后发现那是北美空防司令部（美国国家航空航天局的秘密基地）。基地负责人布兰德教授向库珀透露土星附近出现了虫洞，认为外星智慧有意协助人类前往遥远星系移居，总署在约十年前已派遣了十二名科学家穿越该虫洞，各自降落在多个被认为有居住可能性的行星上，传送回来的资料显示其中一个以黑洞“卡冈图雅”为中心的行星系统有三颗星球可能适合殖民
-
-## 三颗星球
-
-米勒（Miller）、埃德蒙斯（Edmunds）和曼恩（Mann）
-
-## 行动
-
-库珀应布兰德教授的要求，担任航天器永恒号（Endurance）的驾驶员前往执行拉撒路项目
-
-## 计划
-
-A计划为确认星球适居性后，透过布兰德教授的重力方程协助地球人类前往殖民；B计划为带着多个人类胚胎进行殖民，留在地球的人类则会灭绝。
-
-## 实际行动轨迹：
-
-### 米勒星球：
-
-地表只有一片汪洋且经常出现巨型海啸，其海啸的来袭使道尔丧生，并且延误了回程。众人返回永恒号后发现对罗米利而言已度过了超过23年的时间。
-
-### 曼恩星球：
-
-所有的数据都是曼恩为了让自己获救而伪造成的。曼恩一开始就知道A计划无法实现，因为无法进入黑洞获得黑洞引力数据。为了偷飞船逃生，曼恩进行了一系列黑操作，企图杀死男主。曼恩在与永恒号并未完全对接成功的情况下打开气闸，产生的失控减压使他身亡，并导致永恒号失控旋转，库珀成功对接永恒号使其稳定下来。
-
-### 埃德蒙斯：
-
-女主到达。可适宜人类生存。
-
-## 黑洞
-
-库珀让自己驾驶的漫游者号于耗尽燃料后分离并进入黑洞，但在漫游者号被毁弹射逃生后，库珀发现自己身处一个非线性流动的第五维度超正方体。库珀至此明白了未来超越了时空并进化到较高文明的人类创造了四维超正方体和虫洞以拯救过去的人类，也明白自己亦是墨菲儿时遇上的幽灵、引导自己参与拉撒路项目（这是一个命定悖论）。库珀把塔斯取得的黑洞数据以引力波透过墨菲的手表传送给她；成人墨菲在回忆此事时终于了发现父亲的讯息，她完成了布兰德教授的方程使人类得以离开地球，前往环绕着土星运行的空间站居住。
-
-## 结局
-
-四维超正方体空间在数据传送完毕后关闭，库珀被送离虫洞回到土星附近，被土星宇宙殖民地人员救起。此时他已离开地球91年，理论上而言已是124岁。 -->
-
-
-
-<p><img src="/images/text3.png" alt="女主在埃德蒙斯"></p>
-<p>大概就是这样的故事，还有一个知乎分镜头解析可参考：<a href="https://zhuanlan.zhihu.com/p/398195278">分镜头解析</a></p>
-<p>《不要温和地走入那个良夜》是英国诗人狄兰·托马斯创作于20世纪中期的一首诗歌。不要温和地⾛进那个良夜。⽩昼将尽，暮年仍应燃烧咆哮。怒斥吧，怒斥光的消逝。</p>
-<p>终于在一个偶然的疫情期间开通了这个博客，却开始纠结到底应该写些什么。现在看来，不如就作为一个乱七八糟的生活笔记吧。毫无预料的封闭生活马上接近两个月，今天的上海似乎已经实现了表面上的社会面清零，不知是否可信，但起码看起来是这样的。突然发现，如果一瞬间结束这种封闭生活的话我大概会产生如同两个月前的那种不适应心理，也许会焦虑起仍未好好复习的考试，以及即将成为社畜的生活。不过还好，还是无比期待解封后的生活的，毕竟我总喜欢给自己的生活提前加入许多的仪式感，提前规划好让自己舒服的状态，加好足够多的购物车，收藏许多的攻略与技巧。希望一切顺利吧！</p>
-]]></content>
-      <categories>
-        <category>电影</category>
-      </categories>
-      <tags>
-        <tag>电影</tag>
-        <tag>科幻</tag>
-        <tag>星际穿越</tag>
       </tags>
   </entry>
   <entry>
@@ -383,134 +188,91 @@ A计划为确认星球适居性后，透过布兰德教授的重力方程协助�
       </tags>
   </entry>
   <entry>
-    <title>“学校把人工湖改成了游泳池”</title>
-    <url>/2022/05/02/text4/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>今天又看完了一部诺兰导演的片子，就是著名的《盗梦空间》啦，实话讲好多细节我其实看完后回顾了一些影评才联系起来。具体内容我还是放两个链接作为记录了。</p>
+    <title>我的公司电脑也可以更博客了</title>
+    <url>/2023/04/28/text15/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>测试ing<br>算是今天上班完成的第一件事。<br>但却不知道可以写点什么</p>
 <span id="more"></span>
-<p><a href="https://zhuanlan.zhihu.com/p/72491398">《盗梦空间》剧情全解析</a><br><a href="https://baijiahao.baidu.com/s?id=1639905472384730550&wfr=spider&for=pc">《盗梦空间》剧情与逻辑长篇解析</a></p>
-<p>今天中午也做了一些奇奇怪怪的梦，而且是越梦越不愿醒来的感觉，梦中还显得异常真实。</p>
-<p>“学校似乎也发布了返乡通知，很多考试提前进行，校园里突然人很多，一团一团的簇拥在一起，我过去一瞄，才发现不同的场馆在举行不同的体测活动，以记为这个学期的成绩。足球场地被改成了50米短跑场地，人工湖也变成了游泳考试的场地……”</p>
-<p>最近每天一闲下来就会不停地搜索各种信息，关于上海疫情发展的预测，关于上海大学生回家的政策与规定，刷超话，小红书，知乎。明知道这是焦虑的表现，却还是无法克制。然后脑海中就会透过奇奇怪怪的思维来分析我为什么会被封在学校，进而我就会发现，原来我被封在学校这个事件其实是个超级小概率事件，而根据统计学上的假设检验，如果一个小概率事件发生了，那就意味着我有更为充足的理由，拒绝原假设。而原假设又是什么呢，我想应该是我们正常的生活状态吧。既然需要拒绝这个原假设，那就说明原假设为假的概率性非常高，事实上生活本身便是这种不正常的状态……好吧，我确实自己也陷入了一种焦虑循环。</p>
-<p>换个角度来看，隔离在学校也并不是毫无利处。其实我在去年元旦的时候就发现自己在2021年中并无明显的成长，当然我所指的成长是排除那些学业、实习、工作方面的进步的。2021年，我其实大部分时间忙于这些读研所必须要完成的事项，也不知道为什么研一下最重要的专业课被安排在周六全天，记得去年这会在奉贤上课的周六早上，排除我会提前回去的情况，好几次都五点五十起床，然后从东兰路打车到达莲花路地铁站赶那班6点45分的校车，大概7点30能到达奉贤校区。然后最紧张的时候，晚上九点才能上完蒋老师的这个需要每节课提交代码作业的课。为了能给自己留出一个完整的周日，一般晚上九点下课就想立刻回市区，于是就从奉贤校区打车到奉贤新城地铁站（是因为公交车真的半小时一趟还不一定有），然后再坐个一个多钟头地铁回东兰路，回去就基本过了十一点了。周日自己待一天后，然后周一又是继续实习。不过想起来这样的生活确实很充实了，也感谢这一路上遇到的各位老师，在每个实习中遇到的老师和同事真的很好，给予我太多太多的指导！而除了这些学业型成长外，我觉得去年就我个人精神来说几乎是没有任何进步的，可能是因为情绪内耗过多，自己本身也承担着论文、求职以及未来发展的压力。</p>
-<p>这次疫情也给了我一个独自相处与玩耍的机会，我也利用这段时间真正去尝试了一些自己想做的许许多多，总而言之在提早接受这一现实之后内心还是蛮平静的，也很安然地在感受这一切，毕竟中途我已经决定了返乡，但是在权衡了利弊以及自己回家后的状态后，还是觉得留在学校更舒适一些。</p>
-<p>因为<a href="https://y.music.163.com/m/song?id=1418131335&uct=ch46Jr6bOY1nXCACXP8ePQ==&app_version=8.7.16">岛屿</a>，那天对棱镜乐队一见钟情！既无摇滚的浪荡，又无民谣的悲切，温柔中带有刚烈，给人以浪漫与治愈！</p>
-<p><img src="/images/text4.jpg" alt="2022.4.27  棱镜 厦门巡演"></p>
-<p>愿早日解封！</p>
+
+
+<p>嗯。。。我好困。。。</p>
+]]></content>
+      <tags>
+        <tag>拾叶集</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>不知自己会喜欢何种生活状态呢</title>
+    <url>/2022/12/04/text13/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>入职差不多5个月了，而入职也意味着我就这样开始了一段新的生活。可是最近愈发发现自己的状态似乎没有刚入职那般热情了，这样子持续打工+玩耍的状态很充实，却一下子会看不到未来的路。</p>
+<span id="more"></span>
+
+<p>今天躺着的时候偶然开始翻起了一个个博客，发现博客中记满了朴素但真挚的生活感想。有哲思，有小故事，有少年得意的成就记叙，也有人到中年的感怀伤时……但我发现被文字记录下来的瞬间无论何种却是无比的细腻且有趣。</p>
+<p>我的未来呢，做完管培期后，gap一下去旅居的梦想可以实现嘛？</p>
+<p>制定一个后续自律起来的小计划吧</p>
+<blockquote>
+<p>周一二四 运动 达40分 其他日子酌情<br>浙考前坚持周1-4专注刷两个部分的套题<br>拒绝刷抖音 适当小红书 小红书主要充当攻略搜索功能<br>晚上回来后煮粥蒸蛋 不乱吃外卖<br>下班后拒绝刷手机、聊天，回信息放在睡前<br>把大量晚间用在读已买的纸质书上<br>每周看一部电影<br>睡前、午休前刷手机 看电视剧<br>上班时间抽空放播客</p>
+</blockquote>
+<p>8:00——10:00 吃饭&#x2F;学习&#x2F;看书&#x2F;运动<br>10:00—— 洗澡&#x2F;练琴&#x2F;玩手机睡觉 </p>
 ]]></content>
       <categories>
         <category>拾叶集</category>
       </categories>
       <tags>
         <tag>拾叶集</tag>
-        <tag>电影</tag>
-        <tag>科幻</tag>
-        <tag>盗梦空间</tag>
       </tags>
   </entry>
   <entry>
-    <title>2020居家小记</title>
-    <url>/2020/02/24/text2/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>本来想做一个自制美食版本的居家记录的，毕竟是因为2020年居家才让我学会了自制美食。顺路就写成了一个笔记+美食版本了。2020的上半年和往常的生活相比真的很神奇！居家生活真的会有不一样的快乐呀！</p>
+    <title>深度学习的一些重要思想</title>
+    <url>/2022/08/16/text12/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>一些非常简略的笔记。</p>
 <span id="more"></span>
 
-<h2 id="日记"><a href="#日记" class="headerlink" title="日记"></a>日记</h2><blockquote>
-<p>2020-01-19<br> IELTS阅读果真还没做半篇就想去看电视了，20分钟这么长一篇，还这么多题，我倒是每句话都能读懂翻译成中文，可连起来总觉得不是那么有逻辑，说了个啥也不知道，总觉得我有时不是英语不好，是语文太烂。。。<br> 现在觉得还是考研阅读简单！</p>
-</blockquote>
-<p>回家本来还计划的开学考个雅思来着，当时认真学了个十几天</p>
+<h1 id="神经网络基础"><a href="#神经网络基础" class="headerlink" title="神经网络基础"></a>神经网络基础</h1><p>线性函数→→→每个类别的得分<br>$f\left ( x,w\right)+b$   w是权重参数、b是偏置参数</p>
+<p>权重参数表示在某个类别中，某权重的重要性<br>w矩阵是优化而来的，需要不断改变w参数</p>
+<h2 id="损失函数："><a href="#损失函数：" class="headerlink" title="损失函数："></a>损失函数：</h2><p>$L_{i} &#x3D; {\textstyle \sum_{j≠y_{i} }^{}} max(0，S_{j}-S_{y_{i} } +1)$<br>S_{j}表示错误      S_{y_{i} }表示正确         1是指容忍程度<br>要求正确类别的得分起码比错误类别多1以上</p>
+<h2 id="R-w-正则化"><a href="#R-w-正则化" class="headerlink" title="R(w) 正则化"></a>R(w) 正则化</h2><p>加入正则化项缓解过拟合</p>
+<h2 id="Softmax分类器"><a href="#Softmax分类器" class="headerlink" title="Softmax分类器"></a>Softmax分类器</h2><p>将得分值转化为损失值<br>Sigmoid函数将的分值转化为概率</p>
+<p>概率越接近于1，损失越小</p>
+<h2 id="前向传播："><a href="#前向传播：" class="headerlink" title="前向传播："></a>前向传播：</h2><p>$f\left ( x,w \right ) +b$   得出损失值</p>
+<h2 id="反向传播："><a href="#反向传播：" class="headerlink" title="反向传播："></a>反向传播：</h2><p>更新w，以优化损失函数<br>链式求导法则</p>
+<p>输入层表示多个特征的输入</p>
+<p>非线性变化加在每一部矩阵计算之后</p>
 <blockquote>
-<p>2020-01-21<br> #武汉成立疫情防控指挥部#  31日被爆出病毒， 2号收到官方消息是得到了镇压，不必恐慌。<br> 然而那几天我一直在外流浪，1号当天我在发烧，仍在外流浪…回来十几天变成了重咳嗽…想想都好险… ​​​</p>
+<p>神经元个数越多越好，但不可过拟合</p>
 </blockquote>
-<p>疫情正式爆发的那天</p>
 <blockquote>
-<p>2020-02-02<br> 我开始承认，随着岁月渐增对太多东西已经失去了勇气与期许，突然听到了《Flightless bird,American mouth》,曾经我小心翼翼地把它翻译成“破碎的梦想，自由的宣言”，那是莫过于熟悉地不能再熟悉的旋律。我才明白我其实多么地喜欢自由，也许记不得曾经的情感，我却依旧怀念着那个Idealist ～宁愿世界肆无忌惮打量我的天真，宁愿着做那只折翼的鸟儿，妒忌，振翅，然后回归肆无忌惮的生活。 ​​​</p>
+<p>惩罚力度过小会导致过拟合<br>$\lambda &#x3D;0.001 $<br>$\lambda &#x3D;0.01 $<br>$\lambda &#x3D;0.1$</p>
 </blockquote>
-<p>不知我在感慨什么</p>
 <blockquote>
-<p>2020-04-22<br> 好想有同学开车带俺去附近城市乡村逛逛。<br> 可以去农村摘蔬菜，去古城走走，去看壶口瀑布也行啊，实在不行去爬恒山、华山啊</p>
+<p>参数个数即矩阵的大小，越大越容易过拟合<br>64 $\quad$  128   $\quad$     256   $\quad$    112</p>
 </blockquote>
-<p>在家呆的好想开车去玩的样子</p>
-<blockquote>
-<p>2020-05-08<br> Sometimes,I want to express myself.But I couldn’t do that.I love to be alone or only with the beloved.Those times will calm me down to think about the world.I enjoy the thinking time with the beloved.When we talked about Aristotle together, we talked about the hometown of Confucius and talked about the beautiful Kunming.I always want the time to talk to be meaningful.A lot of people call me an idealist,without knowing that all I wanted was an undisturbed lifestyle.Maybe I was wrong, but that was always my choice.</p>
-</blockquote>
-<p>好像是我乱写的</p>
-<blockquote>
-<p>2020-05-30<br> 有点想念我宿舍的东西了[委屈]<br> 感觉八成回不去了…想起了临走前地上小箱子里好多盒牛奶估计过期了…还有俺的书…应该没发霉吧…<br> 匆匆离开了宿舍，却回不去了了 ​​​</p>
-</blockquote>
-<p>想回学校了</p>
-<blockquote>
-<p>2020-06-21<br> 会想念武汉，突然想哭T﹏T  ​​​</p>
-</blockquote>
-<p>回武汉了，虽然只有一天</p>
-<blockquote>
-<p>2020-06-22<br> 太跌跌撞撞了…<br> 中转了一趟nj，进nj南站就被拉去了湖北通道，当时看到一大片区域分区问你住哪儿，似乎要拉去做核酸，我说有7日核酸检测工作人员拍照签了协议书就放我走了。<br> 耍小聪明以为到达nj就会摆脱武汉旅居的历史，谁知禄口机场上飞机前通过国务院系统查询到了我的十四天旅居记录（有武汉），我有点慌了，害怕不让我飞了，他们有点疑惑要不要管武汉的，反正北京很限制，结果我说有核酸检测还有前些日子偶尔做的抗体检测于是工作人员也拍照记录后让我上飞机了。<br> 飞机上胃疼了一路，当时都睡着了，空姐小姐姐敲醒我跟我说，巴拉巴拉我有武汉旅居史，反正说让我飞机停了别走，坐会，有对接人员过来接我？？？有点害怕，坐了一会，一个漂亮姐姐来接我了，不知道走了哪里，路上都胃疼一脸狼狈，小姐姐看我胃不舒服还告诉我哪里有热水去喝点，反正后来是带我去了一个登记点，巴拉巴拉问了我一通，做了一通登记，以及拍照获取了我的信息，我说怎么样了可以离开了不？然后跟我说有疫情防控指挥部的人过来，唉，等了一会，一个医生过来跟我聊了两句，说不是太原本地就叮嘱我报备社区离开了…<br> 唉，我应该没事吧，不然我这旅居史也对国家太不负责了…<br> 罪过吖</p>
-</blockquote>
-<p>中转南京回家的经历</p>
-<h2 id="自制美食"><a href="#自制美食" class="headerlink" title="自制美食"></a>自制美食</h2><p>好喜欢做饭，什么时候能有无忧无虑的居家美食生活呢</p>
-<p><img src="/images/%E5%B0%8F%E9%BE%99%E8%99%BE.jpg" alt="小龙虾"><br><img src="/images/%E6%B2%BE%E4%B8%B2.jpg" alt="沾串"><br><img src="/images/%E9%B1%BC%E9%A6%99%E8%82%89%E4%B8%9D.jpg" alt="鱼香肉丝"><br><img src="/images/%E6%B2%B9%E8%83%A1%E8%8C%84%E5%AD%90.jpg" alt="油胡茄子"><br><img src="/images/%E6%84%8F%E5%A4%A7%E5%88%A9%E9%9D%A2.jpg" alt="意大利面"><br><img src="/images/%E8%99%BE.jpg" alt="红烧小虾"><br><img src="/images/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E9%B8%A1%E8%9B%8B%E9%9D%A2.jpg" alt="西红柿鸡蛋面"><br><img src="/images/%E7%B3%96%E9%86%8B%E9%B8%A1%E8%83%B8%E8%82%89.jpg" alt="糖醋鸡胸肉"><br><img src="/images/%E7%9F%B3%E9%94%85%E6%8B%8C%E9%A5%AD.jpg" alt="石锅拌饭"><br><img src="/images/%E8%8C%84%E5%AD%90.jpg" alt="不成型的茄子炒火腿"><br><img src="/images/%E9%BA%BB%E8%BE%A3%E7%83%AB.jpg" alt="麻辣烫"><br><img src="/images/%E9%BA%BB%E8%BE%A3%E6%8B%8C.jpg" alt="麻辣拌"><br><img src="/images/%E5%92%96%E5%96%B1%E9%B8%A1%E7%B1%B3%E9%A5%AD.jpg" alt="咖喱鸡米饭"><br><img src="/images/%E8%95%A8%E6%A0%B9%E7%B2%89.jpg" alt="酸辣蕨根粉"><br><img src="/images/%E9%B8%A1%E8%9B%8B%E7%81%8C%E9%A5%BC.jpg" alt="鸡蛋灌饼"><br><img src="/images/%E9%9F%A9%E5%BC%8F%E7%82%92%E7%B1%B3.jpg" alt="韩式炒米"><br><img src="/images/%E9%9F%A9%E5%BC%8F%E7%82%92%E9%A5%BC.jpg" alt="韩式炒饼"><br><img src="/images/%E9%BE%9F%E8%8B%93%E8%86%8F%E6%B3%A1%E6%A2%A8.jpg" alt="龟苓膏泡梨"><br><img src="/images/%E5%A4%A7%E7%B1%B3%E9%A5%AD.jpg" alt="加入了蔬菜的大米饭"><br><img src="/images/%E5%8C%85%E8%8F%9C%E7%82%92%E8%8B%95%E7%B2%89.jpg" alt="包菜炒粉"><br><img src="/images/%E5%86%85%E8%84%82%E8%B1%86%E8%85%90.jpg" alt="内脂豆腐"><br><img src="/images/%E6%B2%B9%E7%84%96%E5%A4%A7%E8%99%BE.jpg" alt="油焖大虾"><br><img src="/images/%E9%85%B8%E6%B1%A4%E6%B0%B4%E9%A5%BA.jpg" alt="酸汤水饺"></p>
+<p>激活函数（非线性变换）</p>
+<p>由于sigmoid函数梯度为0时可能发生梯度消失现象，于是多采用RELU函数</p>
+<p>参数初始化：根据随机策略来进行初始化</p>
+<p>drop-out：杀死神经元，防止网络搜索过于复杂</p>
+<h1 id="计算机视觉"><a href="#计算机视觉" class="headerlink" title="计算机视觉"></a>计算机视觉</h1><p>检测、分类与检索、超分辨率重构、医学细胞检测、OCR识别、无人驾驶、人脸识别</p>
+<h2 id="卷积网络："><a href="#卷积网络：" class="headerlink" title="卷积网络："></a>卷积网络：</h2><p>卷积操作：旋转180度，与另外一个矩阵做点积</p>
+<p><strong>滑动窗口步长：</strong>    7<em>7  →   5</em>5   特征丰富<br>7<em>7  →   3</em>3   特征不丰富<br>常用为5*5较多的，但是计算效率会低</p>
+<p><strong>卷积核尺寸：</strong>  选择区域大小<br>边缘填充（+pad1）：由于中间点提取次数较多，外面加一圈，保证边界信息充分利用<br>卷积核尺寸：得到多少个特征图（10,20,30）</p>
+<p><strong>池化层：</strong><br>224<em>224</em>64 → 112<em>112</em>64</p>
+<p>最大池化，平均池化：分成每一部分选最大&#x2F;平均</p>
+<p>两次卷积，一次池化<br>CONV RELU CONV RELU POOL CONV RELU CONV RELU POOL CONV RELU CONV RELU POOL FC(全连接层)<br>带参数计算的称为一层，CONV,FC ，此网络有7层</p>
+<h2 id="经典网络"><a href="#经典网络" class="headerlink" title="经典网络"></a>经典网络</h2><p><strong>Alexnet：</strong><br>11*11的卷积核、步长为4，不加pad，不常见</p>
+<p><strong>VGG:</strong><br>3*3的卷积核，16&#x2F;19层，pooling后弥补损失，特征翻倍，16层的效果比30都好</p>
+<p><strong>Resnet：</strong><br>跳过某些层，把深度学习救活，层数越高，效果合理变好。</p>
+<p>堆叠小的卷积核所需参数更少，卷积过程越多，特征提取越细致，越不会增大权重参数个数，典型案例就是VGG</p>
+<h1 id="递归神经网络RNN"><a href="#递归神经网络RNN" class="headerlink" title="递归神经网络RNN"></a>递归神经网络RNN</h1><p>用于自然语言处理<br>word2vec<br>50-300维向量<br>相似的词在特征表达中比较相似</p>
+<p>CBOW:上下文→中心词<br>Skip-gram：中心词→上下文</p>
+<p>A→B(十万)<br>A,B→0.9<br>负采样模型，由于target全为1，需要加入target全为0的词，target全为0的词不在语料库中，负样本是人为构建的</p>
+<h1 id="Keras框架"><a href="#Keras框架" class="headerlink" title="Keras框架"></a>Keras框架</h1><p>以Tenseflow为后端，可以实现简单的api操作</p>
+<p>drop-out<br>学习率越小越好<br>权重参数的初始化方法（均匀、高斯）<br>初始化标准差（越小，过拟合风险越低）</p>
 ]]></content>
       <categories>
-        <category>拾叶集</category>
+        <category>工作</category>
       </categories>
       <tags>
-        <tag>拾叶集</tag>
-        <tag>美食</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>菲利普好可爱！</title>
-    <url>/2022/05/05/text5/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>忽然之间，竟不知要如何表达！无意间看到这部豆瓣9.1分的电影的，名字叫《完美的世界》，真的很可！似乎看起来这个题目不知道电影会讲些什么，剧情很简单，但真的好感动！哭了好多次！心想上一次看电影感动到哭，还是19年和七七在电影院刷《少年的你》了。</p>
-<span id="more"></span>
-<p>正所谓，不幸的童年，要用一生来治愈吧！</p>
-<p>剧情所传达的，真的太像《美丽人生》的父爱视角了。</p>
-<p>说几个我印象深刻的细节画面吧</p>
-<blockquote>
-<p>在布奇偷车的时候，车的主人拉着车门一直追随，在布奇拿枪示意车主离开时，菲利普视图咬了车主的手，车主因此跌落，给了车主一次生还的机会</p>
-</blockquote>
-<p>原来，我的想法恰好你替我实现了，我们共同守护了车主的生存权，画面真的好治愈啊，好像拿枪这一行动变得不是那么残忍了。</p>
-<blockquote>
-<p>“偷东西是不对的，但是你特别需要，又没有钱，借用一下也没什么不可以，这是个例外”</p>
-</blockquote>
-<p>这让我想到了一种普世价值观，我们往往认为普世价值观是对的，但其实，生活真的有很多很多例外。即便是普世价值观，我们仍需要有自己独特的价值判断。布奇用他的的人生哲学，给予了菲利普内心的一种自洽。这所谓是对世界认知的包容性吧。</p>
-<p>以下是几段豆瓣摘录：</p>
-<blockquote>
-<p>“死亡是最彻底的结束，一切探寻在其面前都将无功而返。但幸运的是，生命的陨落，静默的控诉，胜于万语千言，给了我们审视的眸，沉思的心。<br>人们总有这样或那样的理由来拒绝喜欢一部电影，这本无可厚非。但一部让人陷入思绪沉淀的电影，本身就是一种实现，一种成功。<br>《完美的世界》展现给我们一个并不完美的现实世界，这并不重要。重要的是电影以它独特的艺术语言，网住了现世的纷杂，在我们心中保全了一个关于完美的未来主义。重要的是在与完美擦肩的瞬间，给了我们一次自我省视的机会，在沉溺的远处发出震世的警醒，阻止我们仅仅因为尚存温饱的生活，而在沾沾自喜的麻木中继续失去更多的东西。”</p>
-</blockquote>
-<p>最后，菲利普好可爱！你也要越来越好！</p>
-]]></content>
-      <categories>
-        <category>电影</category>
-      </categories>
-      <tags>
-        <tag>拾叶集</tag>
-        <tag>电影</tag>
-        <tag>完美的世界</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>关于中世纪的些许笔记</title>
-    <url>/2022/05/11/text7/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>最近速读完了朱迪斯本内特的这本《欧洲中世纪史》。中世纪这个时期真的太过于复杂了，以这本书的划分方式来看，整个中世纪跨越一千年，从公元500至公元1500年。就整个欧洲以及地中海沿岸来讲，整体的政局发展是十分混乱的，这里简要记录一下我的整体感受以及几个印象深刻的画面吧。</p>
-<span id="more"></span>
-
-<p>我们都知道，罗马帝国是欧洲中世纪的主角，公元395年东西罗马帝国正式一分为二，而西罗马帝国在公元476年灭亡，而东罗马帝国则在1453年被奥斯曼帝国吞下。而东西两个帝国灭亡的主要原因究其根本其实是一致的，即蛮族的不断入侵。</p>
-<p>自5世纪起，罗马帝国的东西两部分就沿着不同的轨迹发展。不久之后，一股新的势力————伊斯兰文明加入，到7世纪，整个欧洲正式受到三种局势力量的影响，并相互制衡。在西欧，各个蛮族势力异军突起，不断成立新的蛮族继承国。而东方，则是势力渐进上升的东罗马帝国。在南部，源于伊斯兰教的阿拉伯世界快速发展起来。简单绘制了中世纪早期的三大势力趋势图，如下。</p>
-<p><img src="/images/text7.png" alt="公元500-1000年 三大势力 简图"></p>
-<h2 id="查士丁尼时代，527-565"><a href="#查士丁尼时代，527-565" class="headerlink" title="查士丁尼时代，527-565"></a>查士丁尼时代，527-565</h2><p>查士丁尼统治时期的梦想仍旧是收复西方失地，复兴罗马帝国。得益于时机优势以及其妻子迪奥多拉皇后的鼎力相助，查士丁尼的统治具有划时代的意义。比如，众所周知的查士丁尼《民法大全》对后世整个西方法治世界的影响是极其深远的。包括如今在伊斯坦布尔的索菲亚大教堂，便是当年拜占庭实力与艺术的最强代表。不过，查士丁尼的战功没保持多久，就再次经受蛮族的侵略了。</p>
-<h2 id="伊斯兰文明，600"><a href="#伊斯兰文明，600" class="headerlink" title="伊斯兰文明，600-"></a>伊斯兰文明，600-</h2><p>穆罕默德的传教过程是坎坷的。起初，除了它的家人和亲信外，没有人支持他，麦加最有势力的商人无视他，在此压力下，他在622年离开麦加，转而在麦地那站稳脚跟，穆罕默德成功让麦地那居民皈依伊斯兰教，实现政教合一，成为麦地那的领袖。随后再征服麦加，实现了传教。</p>
-<p>另一个让我印象深刻的便是伊斯兰教派别的分立了，不知为何，当时读着仿佛略有些伤感。派别的分离涉及到的便是家族矛盾了。阿里是穆罕默德的表亲和女婿。阿里的支持者觉得王位必须由穆罕默德的唯一的子嗣继承———女儿法蒂玛，而法蒂玛正是嫁给了阿里。而在伍麦耶王朝的阿伊莎（非法蒂玛生母）则是穆罕默德的遗孀。阿伊莎在656年亲自上阵与阿里对抗，阿里最终被刺杀。于是，伍麦耶王朝将都城迁至大马士革，统治了将近一个世纪。虽然阿里战败了，可是支持阿里和法蒂玛的人忠心耿耿，他们逐渐发展出了一个新的派别，即什叶派，它与原始的伊斯兰教派———逊尼派分立开来。此后，什叶派与逊尼派纷争不断，10世纪时，以什叶派为代表的法蒂玛王朝建立。直到现在，什叶派与逊尼派的纷争真可谓仍旧是无法调和的。</p>
-<h2 id="加洛林王朝，约700-850"><a href="#加洛林王朝，约700-850" class="headerlink" title="加洛林王朝，约700-850"></a>加洛林王朝，约700-850</h2><p>真的不由地想夸夸加洛林了。从整个西欧史来看，加洛林无疑属于边缘史学了。但我觉得它真的是一段极其伟大的过渡文明。加洛林王朝所在的法兰克王国，后来分成西法兰克、中法兰克和东法兰克，基本是今天的法国、德国、意大利等国的雏形。同时，查理曼对基督世界的构想也极大地鼓舞了后世的发展。在查理曼的统治之下，西欧的各个文化成分———高卢罗马文化、原基督文化以及蛮族继承国的文化开始混合成一个整体。当然，加洛林的弊端也是十分明显的。地方自治导致中央集权只不过是一张白纸、家族政治引发的纷争、贵族内部的反抗、婚姻政策导致好坏不一等。</p>
-<h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2><blockquote>
-<p>无论如何，中世纪都不是一个沉睡的、可怕的时代，而是一个充满变化的时代。公元600年的欧洲和公元1100年或1400年的欧洲有着截然不同的景象。本书也相应地分为三个部分。中世纪早期（Early Middle Ages，约500-1000）指成形时期。这段时期动荡不安、变化不断，从西罗马帝国的分崩离析延续到较为稳定、自信的西欧文明的出现。中世纪中期（Central Middle Ages，约1000-1300），人口逐渐增长，财富得以汇聚，城市得到发展，教育得到振兴，疆域也在扩张。这几个世纪里，我们看到了宗教改革、学术的进步，以及，非常不幸地，对少数民族的迫害。中世纪晚期（Later Middle Ages，约1300-1500）则见证了可怕的灾难以及社会形态的变化。在1300至1350年间，欧洲惨遭饥荒和瘟疫的肆虐；然而在1500年时，欧洲的生产技术、政治结构和经济组织的发达却使之与世界上的其他文明相比具有绝对优势。哥伦布开始探索美洲大陆，葡萄牙人已绕过非洲来到印度；欧洲人发明了加农炮，开出了印刷厂，造出了机械钟，做成了眼镜和蒸馏酒，发展出许许多多现代文明的组成要素。<br>在中世纪之后被称为“现代”的几百年，也就是大约1500至1945年，欧洲的舰队、军队和思想踏遍全球，并改变了整个世界。直在今天，中世纪时关于教育、政府、社会结构、社会公正的观念仍然影响着非欧洲国家。大学是中世纪的发明；而现在，大学这种教育机构遍布全球。美国、墨西哥、加拿大、以色列、日本，以及东欧的几个新的民主国家，其立法机构都可以说是源自中世纪的国会和议会。<br>                                                                                      ————摘自本书导言</p>
-</blockquote>
-<p>也许是很黑暗的一千年，黑死病、宗教冲突、十字军等无疑不是黑暗的表现。但是整体来看，一些局部的细节还是值得后世的学习与思考的。</p>
-]]></content>
-      <categories>
-        <category>历史</category>
-      </categories>
-      <tags>
-        <tag>历史</tag>
-        <tag>中世纪</tag>
+        <tag>DL基础</tag>
+        <tag>学习笔记</tag>
       </tags>
   </entry>
   <entry>
@@ -583,6 +345,253 @@ A计划为确认星球适居性后，透过布兰德教授的重力方程协助�
       <tags>
         <tag>拾叶集</tag>
         <tag>离沪</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于中世纪的些许笔记</title>
+    <url>/2022/05/11/text7/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>最近速读完了朱迪斯本内特的这本《欧洲中世纪史》。中世纪这个时期真的太过于复杂了，以这本书的划分方式来看，整个中世纪跨越一千年，从公元500至公元1500年。就整个欧洲以及地中海沿岸来讲，整体的政局发展是十分混乱的，这里简要记录一下我的整体感受以及几个印象深刻的画面吧。</p>
+<span id="more"></span>
+
+<p>我们都知道，罗马帝国是欧洲中世纪的主角，公元395年东西罗马帝国正式一分为二，而西罗马帝国在公元476年灭亡，而东罗马帝国则在1453年被奥斯曼帝国吞下。而东西两个帝国灭亡的主要原因究其根本其实是一致的，即蛮族的不断入侵。</p>
+<p>自5世纪起，罗马帝国的东西两部分就沿着不同的轨迹发展。不久之后，一股新的势力————伊斯兰文明加入，到7世纪，整个欧洲正式受到三种局势力量的影响，并相互制衡。在西欧，各个蛮族势力异军突起，不断成立新的蛮族继承国。而东方，则是势力渐进上升的东罗马帝国。在南部，源于伊斯兰教的阿拉伯世界快速发展起来。简单绘制了中世纪早期的三大势力趋势图，如下。</p>
+<p><img src="/images/text7.png" alt="公元500-1000年 三大势力 简图"></p>
+<h2 id="查士丁尼时代，527-565"><a href="#查士丁尼时代，527-565" class="headerlink" title="查士丁尼时代，527-565"></a>查士丁尼时代，527-565</h2><p>查士丁尼统治时期的梦想仍旧是收复西方失地，复兴罗马帝国。得益于时机优势以及其妻子迪奥多拉皇后的鼎力相助，查士丁尼的统治具有划时代的意义。比如，众所周知的查士丁尼《民法大全》对后世整个西方法治世界的影响是极其深远的。包括如今在伊斯坦布尔的索菲亚大教堂，便是当年拜占庭实力与艺术的最强代表。不过，查士丁尼的战功没保持多久，就再次经受蛮族的侵略了。</p>
+<h2 id="伊斯兰文明，600"><a href="#伊斯兰文明，600" class="headerlink" title="伊斯兰文明，600-"></a>伊斯兰文明，600-</h2><p>穆罕默德的传教过程是坎坷的。起初，除了它的家人和亲信外，没有人支持他，麦加最有势力的商人无视他，在此压力下，他在622年离开麦加，转而在麦地那站稳脚跟，穆罕默德成功让麦地那居民皈依伊斯兰教，实现政教合一，成为麦地那的领袖。随后再征服麦加，实现了传教。</p>
+<p>另一个让我印象深刻的便是伊斯兰教派别的分立了，不知为何，当时读着仿佛略有些伤感。派别的分离涉及到的便是家族矛盾了。阿里是穆罕默德的表亲和女婿。阿里的支持者觉得王位必须由穆罕默德的唯一的子嗣继承———女儿法蒂玛，而法蒂玛正是嫁给了阿里。而在伍麦耶王朝的阿伊莎（非法蒂玛生母）则是穆罕默德的遗孀。阿伊莎在656年亲自上阵与阿里对抗，阿里最终被刺杀。于是，伍麦耶王朝将都城迁至大马士革，统治了将近一个世纪。虽然阿里战败了，可是支持阿里和法蒂玛的人忠心耿耿，他们逐渐发展出了一个新的派别，即什叶派，它与原始的伊斯兰教派———逊尼派分立开来。此后，什叶派与逊尼派纷争不断，10世纪时，以什叶派为代表的法蒂玛王朝建立。直到现在，什叶派与逊尼派的纷争真可谓仍旧是无法调和的。</p>
+<h2 id="加洛林王朝，约700-850"><a href="#加洛林王朝，约700-850" class="headerlink" title="加洛林王朝，约700-850"></a>加洛林王朝，约700-850</h2><p>真的不由地想夸夸加洛林了。从整个西欧史来看，加洛林无疑属于边缘史学了。但我觉得它真的是一段极其伟大的过渡文明。加洛林王朝所在的法兰克王国，后来分成西法兰克、中法兰克和东法兰克，基本是今天的法国、德国、意大利等国的雏形。同时，查理曼对基督世界的构想也极大地鼓舞了后世的发展。在查理曼的统治之下，西欧的各个文化成分———高卢罗马文化、原基督文化以及蛮族继承国的文化开始混合成一个整体。当然，加洛林的弊端也是十分明显的。地方自治导致中央集权只不过是一张白纸、家族政治引发的纷争、贵族内部的反抗、婚姻政策导致好坏不一等。</p>
+<h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2><blockquote>
+<p>无论如何，中世纪都不是一个沉睡的、可怕的时代，而是一个充满变化的时代。公元600年的欧洲和公元1100年或1400年的欧洲有着截然不同的景象。本书也相应地分为三个部分。中世纪早期（Early Middle Ages，约500-1000）指成形时期。这段时期动荡不安、变化不断，从西罗马帝国的分崩离析延续到较为稳定、自信的西欧文明的出现。中世纪中期（Central Middle Ages，约1000-1300），人口逐渐增长，财富得以汇聚，城市得到发展，教育得到振兴，疆域也在扩张。这几个世纪里，我们看到了宗教改革、学术的进步，以及，非常不幸地，对少数民族的迫害。中世纪晚期（Later Middle Ages，约1300-1500）则见证了可怕的灾难以及社会形态的变化。在1300至1350年间，欧洲惨遭饥荒和瘟疫的肆虐；然而在1500年时，欧洲的生产技术、政治结构和经济组织的发达却使之与世界上的其他文明相比具有绝对优势。哥伦布开始探索美洲大陆，葡萄牙人已绕过非洲来到印度；欧洲人发明了加农炮，开出了印刷厂，造出了机械钟，做成了眼镜和蒸馏酒，发展出许许多多现代文明的组成要素。<br>在中世纪之后被称为“现代”的几百年，也就是大约1500至1945年，欧洲的舰队、军队和思想踏遍全球，并改变了整个世界。直在今天，中世纪时关于教育、政府、社会结构、社会公正的观念仍然影响着非欧洲国家。大学是中世纪的发明；而现在，大学这种教育机构遍布全球。美国、墨西哥、加拿大、以色列、日本，以及东欧的几个新的民主国家，其立法机构都可以说是源自中世纪的国会和议会。<br>                                                                                      ————摘自本书导言</p>
+</blockquote>
+<p>也许是很黑暗的一千年，黑死病、宗教冲突、十字军等无疑不是黑暗的表现。但是整体来看，一些局部的细节还是值得后世的学习与思考的。</p>
+]]></content>
+      <categories>
+        <category>历史</category>
+      </categories>
+      <tags>
+        <tag>历史</tag>
+        <tag>中世纪</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>菲利普好可爱！</title>
+    <url>/2022/05/05/text5/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>忽然之间，竟不知要如何表达！无意间看到这部豆瓣9.1分的电影的，名字叫《完美的世界》，真的很可！似乎看起来这个题目不知道电影会讲些什么，剧情很简单，但真的好感动！哭了好多次！心想上一次看电影感动到哭，还是19年和七七在电影院刷《少年的你》了。</p>
+<span id="more"></span>
+<p>正所谓，不幸的童年，要用一生来治愈吧！</p>
+<p>剧情所传达的，真的太像《美丽人生》的父爱视角了。</p>
+<p>说几个我印象深刻的细节画面吧</p>
+<blockquote>
+<p>在布奇偷车的时候，车的主人拉着车门一直追随，在布奇拿枪示意车主离开时，菲利普视图咬了车主的手，车主因此跌落，给了车主一次生还的机会</p>
+</blockquote>
+<p>原来，我的想法恰好你替我实现了，我们共同守护了车主的生存权，画面真的好治愈啊，好像拿枪这一行动变得不是那么残忍了。</p>
+<blockquote>
+<p>“偷东西是不对的，但是你特别需要，又没有钱，借用一下也没什么不可以，这是个例外”</p>
+</blockquote>
+<p>这让我想到了一种普世价值观，我们往往认为普世价值观是对的，但其实，生活真的有很多很多例外。即便是普世价值观，我们仍需要有自己独特的价值判断。布奇用他的的人生哲学，给予了菲利普内心的一种自洽。这所谓是对世界认知的包容性吧。</p>
+<p>以下是几段豆瓣摘录：</p>
+<blockquote>
+<p>“死亡是最彻底的结束，一切探寻在其面前都将无功而返。但幸运的是，生命的陨落，静默的控诉，胜于万语千言，给了我们审视的眸，沉思的心。<br>人们总有这样或那样的理由来拒绝喜欢一部电影，这本无可厚非。但一部让人陷入思绪沉淀的电影，本身就是一种实现，一种成功。<br>《完美的世界》展现给我们一个并不完美的现实世界，这并不重要。重要的是电影以它独特的艺术语言，网住了现世的纷杂，在我们心中保全了一个关于完美的未来主义。重要的是在与完美擦肩的瞬间，给了我们一次自我省视的机会，在沉溺的远处发出震世的警醒，阻止我们仅仅因为尚存温饱的生活，而在沾沾自喜的麻木中继续失去更多的东西。”</p>
+</blockquote>
+<p>最后，菲利普好可爱！你也要越来越好！</p>
+]]></content>
+      <categories>
+        <category>电影</category>
+      </categories>
+      <tags>
+        <tag>拾叶集</tag>
+        <tag>电影</tag>
+        <tag>完美的世界</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>“学校把人工湖改成了游泳池”</title>
+    <url>/2022/05/02/text4/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>今天又看完了一部诺兰导演的片子，就是著名的《盗梦空间》啦，实话讲好多细节我其实看完后回顾了一些影评才联系起来。具体内容我还是放两个链接作为记录了。</p>
+<span id="more"></span>
+<p><a href="https://zhuanlan.zhihu.com/p/72491398">《盗梦空间》剧情全解析</a><br><a href="https://baijiahao.baidu.com/s?id=1639905472384730550&wfr=spider&for=pc">《盗梦空间》剧情与逻辑长篇解析</a></p>
+<p>今天中午也做了一些奇奇怪怪的梦，而且是越梦越不愿醒来的感觉，梦中还显得异常真实。</p>
+<p>“学校似乎也发布了返乡通知，很多考试提前进行，校园里突然人很多，一团一团的簇拥在一起，我过去一瞄，才发现不同的场馆在举行不同的体测活动，以记为这个学期的成绩。足球场地被改成了50米短跑场地，人工湖也变成了游泳考试的场地……”</p>
+<p>最近每天一闲下来就会不停地搜索各种信息，关于上海疫情发展的预测，关于上海大学生回家的政策与规定，刷超话，小红书，知乎。明知道这是焦虑的表现，却还是无法克制。然后脑海中就会透过奇奇怪怪的思维来分析我为什么会被封在学校，进而我就会发现，原来我被封在学校这个事件其实是个超级小概率事件，而根据统计学上的假设检验，如果一个小概率事件发生了，那就意味着我有更为充足的理由，拒绝原假设。而原假设又是什么呢，我想应该是我们正常的生活状态吧。既然需要拒绝这个原假设，那就说明原假设为假的概率性非常高，事实上生活本身便是这种不正常的状态……好吧，我确实自己也陷入了一种焦虑循环。</p>
+<p>换个角度来看，隔离在学校也并不是毫无利处。其实我在去年元旦的时候就发现自己在2021年中并无明显的成长，当然我所指的成长是排除那些学业、实习、工作方面的进步的。2021年，我其实大部分时间忙于这些读研所必须要完成的事项，也不知道为什么研一下最重要的专业课被安排在周六全天，记得去年这会在奉贤上课的周六早上，排除我会提前回去的情况，好几次都五点五十起床，然后从东兰路打车到达莲花路地铁站赶那班6点45分的校车，大概7点30能到达奉贤校区。然后最紧张的时候，晚上九点才能上完蒋老师的这个需要每节课提交代码作业的课。为了能给自己留出一个完整的周日，一般晚上九点下课就想立刻回市区，于是就从奉贤校区打车到奉贤新城地铁站（是因为公交车真的半小时一趟还不一定有），然后再坐个一个多钟头地铁回东兰路，回去就基本过了十一点了。周日自己待一天后，然后周一又是继续实习。不过想起来这样的生活确实很充实了，也感谢这一路上遇到的各位老师，在每个实习中遇到的老师和同事真的很好，给予我太多太多的指导！而除了这些学业型成长外，我觉得去年就我个人精神来说几乎是没有任何进步的，可能是因为情绪内耗过多，自己本身也承担着论文、求职以及未来发展的压力。</p>
+<p>这次疫情也给了我一个独自相处与玩耍的机会，我也利用这段时间真正去尝试了一些自己想做的许许多多，总而言之在提早接受这一现实之后内心还是蛮平静的，也很安然地在感受这一切，毕竟中途我已经决定了返乡，但是在权衡了利弊以及自己回家后的状态后，还是觉得留在学校更舒适一些。</p>
+<p>因为<a href="https://y.music.163.com/m/song?id=1418131335&uct=ch46Jr6bOY1nXCACXP8ePQ==&app_version=8.7.16">岛屿</a>，那天对棱镜乐队一见钟情！既无摇滚的浪荡，又无民谣的悲切，温柔中带有刚烈，给人以浪漫与治愈！</p>
+<p><img src="/images/text4.jpg" alt="2022.4.27  棱镜 厦门巡演"></p>
+<p>愿早日解封！</p>
+]]></content>
+      <categories>
+        <category>拾叶集</category>
+      </categories>
+      <tags>
+        <tag>拾叶集</tag>
+        <tag>电影</tag>
+        <tag>科幻</tag>
+        <tag>盗梦空间</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>不要温和地走进那个良夜</title>
+    <url>/2022/04/30/text3/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>好久都没看科幻了，突然就怀念起了高中时追科幻与冒险片子的日子。今天看完了诺兰的太空科幻作《星际穿越》，真的好牛啊！技术与情感完美融合！</p>
+<p>希望自己会记得剧情的独到之处，这里作一个简要的摘要与总结：</p>
+<span id="more"></span>
+
+<blockquote>
+<p><strong>背景：</strong>地球陷入了一种生存危机，作物减产引发饥荒，沙尘暴等恶劣状况发生，人类未来面临挑战</p>
+</blockquote>
+<blockquote>
+<p><strong>主人公：</strong>曾经美国国家航空航天局的工程师和航天飞机的驾驶员库珀</p>
+</blockquote>
+<blockquote>
+<p><strong>导火线：</strong>女儿墨菲的书房发现奇怪的重力场现象。一场沙尘暴在墨菲房间中留下二进制坐标，二人驱车到达坐标位置后发现那是北美空防司令部（美国国家航空航天局的秘密基地）。基地负责人布兰德教授向库珀透露土星附近出现了虫洞，认为外星智慧有意协助人类前往遥远星系移居，总署在约十年前已派遣了十二名科学家穿越该虫洞，各自降落在多个被认为有居住可能性的行星上，传送回来的资料显示其中一个以黑洞“卡冈图雅”为中心的行星系统有三颗星球可能适合殖民</p>
+</blockquote>
+<blockquote>
+<p><strong>三颗星球：</strong>米勒（Miller）、埃德蒙斯（Edmunds）和曼恩（Mann）</p>
+</blockquote>
+<blockquote>
+<p><strong>行动：</strong>库珀应布兰德教授的要求，担任航天器永恒号（Endurance）的驾驶员前往执行拉撒路项目</p>
+</blockquote>
+<blockquote>
+<p><strong>计划：</strong>A计划为确认星球适居性后，透过布兰德教授的重力方程协助地球人类前往殖民；B计划为带着多个人类胚胎进行殖民，留在地球的人类则会灭绝</p>
+</blockquote>
+<blockquote>
+<p><strong>实际行动轨迹：</strong><br> 米勒星球：地表只有一片汪洋且经常出现巨型海啸，其海啸的来袭使道尔丧生，并且延误了回程。众人返回永恒号后发现对罗米利而言已度过了超过23年的时间<br> 曼恩星球：所有的数据都是曼恩为了让自己获救而伪造成的。曼恩一开始就知道A计划无法实现，因为无法进入黑洞获得黑洞引力数据。为了偷飞船逃生，曼恩进行了一系列黑操作，企图杀死男主。曼恩在与永恒号并未完全对接成功的情况下打开气闸，产生的失控减压使他身亡，并导致永恒号失控旋转，库珀成功对接永恒号使其稳定下来<br> 埃德蒙斯：女主到达。可适宜人类生存</p>
+</blockquote>
+<blockquote>
+<p><strong>黑洞：</strong>库珀让自己驾驶的漫游者号于耗尽燃料后分离并进入黑洞，但在漫游者号被毁弹射逃生后，库珀发现自己身处一个非线性流动的第五维度超正方体。库珀至此明白了未来超越了时空并进化到较高文明的人类创造了四维超正方体和虫洞以拯救过去的人类，也明白自己亦是墨菲儿时遇上的幽灵、引导自己参与拉撒路项目（这是一个命定悖论）。库珀把塔斯取得的黑洞数据以引力波透过墨菲的手表传送给她；成人墨菲在回忆此事时终于了发现父亲的讯息，她完成了布兰德教授的方程使人类得以离开地球，前往环绕着土星运行的空间站居住</p>
+</blockquote>
+<blockquote>
+<p><strong>结局：</strong>四维超正方体空间在数据传送完毕后关闭，库珀被送离虫洞回到土星附近，被土星宇宙殖民地人员救起。此时他已离开地球91年，理论上而言已是124岁</p>
+</blockquote>
+<!-- ## 背景
+
+地球陷入了一种生存危机，作物减产引发饥荒，沙尘暴等恶劣状况发生，人类未来面临挑战
+
+## 主人公
+
+曾经美国国家航空航天局的工程师和航天飞机的驾驶员库珀
+
+## 导火线
+
+女儿墨菲的书房发现奇怪的重力场现象。一场沙尘暴在墨菲房间中留下二进制坐标，二人驱车到达坐标位置后发现那是北美空防司令部（美国国家航空航天局的秘密基地）。基地负责人布兰德教授向库珀透露土星附近出现了虫洞，认为外星智慧有意协助人类前往遥远星系移居，总署在约十年前已派遣了十二名科学家穿越该虫洞，各自降落在多个被认为有居住可能性的行星上，传送回来的资料显示其中一个以黑洞“卡冈图雅”为中心的行星系统有三颗星球可能适合殖民
+
+## 三颗星球
+
+米勒（Miller）、埃德蒙斯（Edmunds）和曼恩（Mann）
+
+## 行动
+
+库珀应布兰德教授的要求，担任航天器永恒号（Endurance）的驾驶员前往执行拉撒路项目
+
+## 计划
+
+A计划为确认星球适居性后，透过布兰德教授的重力方程协助地球人类前往殖民；B计划为带着多个人类胚胎进行殖民，留在地球的人类则会灭绝。
+
+## 实际行动轨迹：
+
+### 米勒星球：
+
+地表只有一片汪洋且经常出现巨型海啸，其海啸的来袭使道尔丧生，并且延误了回程。众人返回永恒号后发现对罗米利而言已度过了超过23年的时间。
+
+### 曼恩星球：
+
+所有的数据都是曼恩为了让自己获救而伪造成的。曼恩一开始就知道A计划无法实现，因为无法进入黑洞获得黑洞引力数据。为了偷飞船逃生，曼恩进行了一系列黑操作，企图杀死男主。曼恩在与永恒号并未完全对接成功的情况下打开气闸，产生的失控减压使他身亡，并导致永恒号失控旋转，库珀成功对接永恒号使其稳定下来。
+
+### 埃德蒙斯：
+
+女主到达。可适宜人类生存。
+
+## 黑洞
+
+库珀让自己驾驶的漫游者号于耗尽燃料后分离并进入黑洞，但在漫游者号被毁弹射逃生后，库珀发现自己身处一个非线性流动的第五维度超正方体。库珀至此明白了未来超越了时空并进化到较高文明的人类创造了四维超正方体和虫洞以拯救过去的人类，也明白自己亦是墨菲儿时遇上的幽灵、引导自己参与拉撒路项目（这是一个命定悖论）。库珀把塔斯取得的黑洞数据以引力波透过墨菲的手表传送给她；成人墨菲在回忆此事时终于了发现父亲的讯息，她完成了布兰德教授的方程使人类得以离开地球，前往环绕着土星运行的空间站居住。
+
+## 结局
+
+四维超正方体空间在数据传送完毕后关闭，库珀被送离虫洞回到土星附近，被土星宇宙殖民地人员救起。此时他已离开地球91年，理论上而言已是124岁。 -->
+
+
+
+<p><img src="/images/text3.png" alt="女主在埃德蒙斯"></p>
+<p>大概就是这样的故事，还有一个知乎分镜头解析可参考：<a href="https://zhuanlan.zhihu.com/p/398195278">分镜头解析</a></p>
+<p>《不要温和地走入那个良夜》是英国诗人狄兰·托马斯创作于20世纪中期的一首诗歌。不要温和地⾛进那个良夜。⽩昼将尽，暮年仍应燃烧咆哮。怒斥吧，怒斥光的消逝。</p>
+<p>终于在一个偶然的疫情期间开通了这个博客，却开始纠结到底应该写些什么。现在看来，不如就作为一个乱七八糟的生活笔记吧。毫无预料的封闭生活马上接近两个月，今天的上海似乎已经实现了表面上的社会面清零，不知是否可信，但起码看起来是这样的。突然发现，如果一瞬间结束这种封闭生活的话我大概会产生如同两个月前的那种不适应心理，也许会焦虑起仍未好好复习的考试，以及即将成为社畜的生活。不过还好，还是无比期待解封后的生活的，毕竟我总喜欢给自己的生活提前加入许多的仪式感，提前规划好让自己舒服的状态，加好足够多的购物车，收藏许多的攻略与技巧。希望一切顺利吧！</p>
+]]></content>
+      <categories>
+        <category>电影</category>
+      </categories>
+      <tags>
+        <tag>电影</tag>
+        <tag>科幻</tag>
+        <tag>星际穿越</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2020居家小记</title>
+    <url>/2020/02/24/text2/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>本来想做一个自制美食版本的居家记录的，毕竟是因为2020年居家才让我学会了自制美食。顺路就写成了一个笔记+美食版本了。2020的上半年和往常的生活相比真的很神奇！居家生活真的会有不一样的快乐呀！</p>
+<span id="more"></span>
+
+<h2 id="日记"><a href="#日记" class="headerlink" title="日记"></a>日记</h2><blockquote>
+<p>2020-01-19<br> IELTS阅读果真还没做半篇就想去看电视了，20分钟这么长一篇，还这么多题，我倒是每句话都能读懂翻译成中文，可连起来总觉得不是那么有逻辑，说了个啥也不知道，总觉得我有时不是英语不好，是语文太烂。。。<br> 现在觉得还是考研阅读简单！</p>
+</blockquote>
+<p>回家本来还计划的开学考个雅思来着，当时认真学了个十几天</p>
+<blockquote>
+<p>2020-01-21<br> #武汉成立疫情防控指挥部#  31日被爆出病毒， 2号收到官方消息是得到了镇压，不必恐慌。<br> 然而那几天我一直在外流浪，1号当天我在发烧，仍在外流浪…回来十几天变成了重咳嗽…想想都好险… ​​​</p>
+</blockquote>
+<p>疫情正式爆发的那天</p>
+<blockquote>
+<p>2020-02-02<br> 我开始承认，随着岁月渐增对太多东西已经失去了勇气与期许，突然听到了《Flightless bird,American mouth》,曾经我小心翼翼地把它翻译成“破碎的梦想，自由的宣言”，那是莫过于熟悉地不能再熟悉的旋律。我才明白我其实多么地喜欢自由，也许记不得曾经的情感，我却依旧怀念着那个Idealist ～宁愿世界肆无忌惮打量我的天真，宁愿着做那只折翼的鸟儿，妒忌，振翅，然后回归肆无忌惮的生活。 ​​​</p>
+</blockquote>
+<p>不知我在感慨什么</p>
+<blockquote>
+<p>2020-04-22<br> 好想有同学开车带俺去附近城市乡村逛逛。<br> 可以去农村摘蔬菜，去古城走走，去看壶口瀑布也行啊，实在不行去爬恒山、华山啊</p>
+</blockquote>
+<p>在家呆的好想开车去玩的样子</p>
+<blockquote>
+<p>2020-05-08<br> Sometimes,I want to express myself.But I couldn’t do that.I love to be alone or only with the beloved.Those times will calm me down to think about the world.I enjoy the thinking time with the beloved.When we talked about Aristotle together, we talked about the hometown of Confucius and talked about the beautiful Kunming.I always want the time to talk to be meaningful.A lot of people call me an idealist,without knowing that all I wanted was an undisturbed lifestyle.Maybe I was wrong, but that was always my choice.</p>
+</blockquote>
+<p>好像是我乱写的</p>
+<blockquote>
+<p>2020-05-30<br> 有点想念我宿舍的东西了[委屈]<br> 感觉八成回不去了…想起了临走前地上小箱子里好多盒牛奶估计过期了…还有俺的书…应该没发霉吧…<br> 匆匆离开了宿舍，却回不去了了 ​​​</p>
+</blockquote>
+<p>想回学校了</p>
+<blockquote>
+<p>2020-06-21<br> 会想念武汉，突然想哭T﹏T  ​​​</p>
+</blockquote>
+<p>回武汉了，虽然只有一天</p>
+<blockquote>
+<p>2020-06-22<br> 太跌跌撞撞了…<br> 中转了一趟nj，进nj南站就被拉去了湖北通道，当时看到一大片区域分区问你住哪儿，似乎要拉去做核酸，我说有7日核酸检测工作人员拍照签了协议书就放我走了。<br> 耍小聪明以为到达nj就会摆脱武汉旅居的历史，谁知禄口机场上飞机前通过国务院系统查询到了我的十四天旅居记录（有武汉），我有点慌了，害怕不让我飞了，他们有点疑惑要不要管武汉的，反正北京很限制，结果我说有核酸检测还有前些日子偶尔做的抗体检测于是工作人员也拍照记录后让我上飞机了。<br> 飞机上胃疼了一路，当时都睡着了，空姐小姐姐敲醒我跟我说，巴拉巴拉我有武汉旅居史，反正说让我飞机停了别走，坐会，有对接人员过来接我？？？有点害怕，坐了一会，一个漂亮姐姐来接我了，不知道走了哪里，路上都胃疼一脸狼狈，小姐姐看我胃不舒服还告诉我哪里有热水去喝点，反正后来是带我去了一个登记点，巴拉巴拉问了我一通，做了一通登记，以及拍照获取了我的信息，我说怎么样了可以离开了不？然后跟我说有疫情防控指挥部的人过来，唉，等了一会，一个医生过来跟我聊了两句，说不是太原本地就叮嘱我报备社区离开了…<br> 唉，我应该没事吧，不然我这旅居史也对国家太不负责了…<br> 罪过吖</p>
+</blockquote>
+<p>中转南京回家的经历</p>
+<h2 id="自制美食"><a href="#自制美食" class="headerlink" title="自制美食"></a>自制美食</h2><p>好喜欢做饭，什么时候能有无忧无虑的居家美食生活呢</p>
+<p><img src="/images/%E5%B0%8F%E9%BE%99%E8%99%BE.jpg" alt="小龙虾"><br><img src="/images/%E6%B2%BE%E4%B8%B2.jpg" alt="沾串"><br><img src="/images/%E9%B1%BC%E9%A6%99%E8%82%89%E4%B8%9D.jpg" alt="鱼香肉丝"><br><img src="/images/%E6%B2%B9%E8%83%A1%E8%8C%84%E5%AD%90.jpg" alt="油胡茄子"><br><img src="/images/%E6%84%8F%E5%A4%A7%E5%88%A9%E9%9D%A2.jpg" alt="意大利面"><br><img src="/images/%E8%99%BE.jpg" alt="红烧小虾"><br><img src="/images/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E9%B8%A1%E8%9B%8B%E9%9D%A2.jpg" alt="西红柿鸡蛋面"><br><img src="/images/%E7%B3%96%E9%86%8B%E9%B8%A1%E8%83%B8%E8%82%89.jpg" alt="糖醋鸡胸肉"><br><img src="/images/%E7%9F%B3%E9%94%85%E6%8B%8C%E9%A5%AD.jpg" alt="石锅拌饭"><br><img src="/images/%E8%8C%84%E5%AD%90.jpg" alt="不成型的茄子炒火腿"><br><img src="/images/%E9%BA%BB%E8%BE%A3%E7%83%AB.jpg" alt="麻辣烫"><br><img src="/images/%E9%BA%BB%E8%BE%A3%E6%8B%8C.jpg" alt="麻辣拌"><br><img src="/images/%E5%92%96%E5%96%B1%E9%B8%A1%E7%B1%B3%E9%A5%AD.jpg" alt="咖喱鸡米饭"><br><img src="/images/%E8%95%A8%E6%A0%B9%E7%B2%89.jpg" alt="酸辣蕨根粉"><br><img src="/images/%E9%B8%A1%E8%9B%8B%E7%81%8C%E9%A5%BC.jpg" alt="鸡蛋灌饼"><br><img src="/images/%E9%9F%A9%E5%BC%8F%E7%82%92%E7%B1%B3.jpg" alt="韩式炒米"><br><img src="/images/%E9%9F%A9%E5%BC%8F%E7%82%92%E9%A5%BC.jpg" alt="韩式炒饼"><br><img src="/images/%E9%BE%9F%E8%8B%93%E8%86%8F%E6%B3%A1%E6%A2%A8.jpg" alt="龟苓膏泡梨"><br><img src="/images/%E5%A4%A7%E7%B1%B3%E9%A5%AD.jpg" alt="加入了蔬菜的大米饭"><br><img src="/images/%E5%8C%85%E8%8F%9C%E7%82%92%E8%8B%95%E7%B2%89.jpg" alt="包菜炒粉"><br><img src="/images/%E5%86%85%E8%84%82%E8%B1%86%E8%85%90.jpg" alt="内脂豆腐"><br><img src="/images/%E6%B2%B9%E7%84%96%E5%A4%A7%E8%99%BE.jpg" alt="油焖大虾"><br><img src="/images/%E9%85%B8%E6%B1%A4%E6%B0%B4%E9%A5%BA.jpg" alt="酸汤水饺"></p>
+]]></content>
+      <categories>
+        <category>拾叶集</category>
+      </categories>
+      <tags>
+        <tag>拾叶集</tag>
+        <tag>美食</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>寄予 加洛林</title>
+    <url>/2018/08/10/text1/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>征战的旅途中<br>四面炊烟袅袅<br>它傲然当升于一片混乱之中<br>谱写了第一个欧洲的神话</p>
+<span id="more"></span>
+
+<p>那时的墨洛温<br>依然黯然相存<br>一场勇敢的谋略<br>这个势力上升的王朝却欣然受到教会青睐</p>
+<p>加洛林<br>不知道它有多幸运<br>查理曼的统治<br>更是浓墨重彩</p>
+<p>这两个世纪的叹息<br>显现出它峥峥的气势<br>在这个欧洲勉强享受过自由的时代<br>一个基督世界的构想迎然诞生</p>
+<p>可依然却<br>再见<br>加洛林
+               </p>
+]]></content>
+      <categories>
+        <category>历史</category>
+      </categories>
+      <tags>
+        <tag>历史</tag>
+        <tag>中世纪</tag>
       </tags>
   </entry>
 </search>
