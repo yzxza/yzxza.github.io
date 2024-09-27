@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://yzxza.github.io/2024/09/28/text20/</loc>
+    
+    <lastmod>2024-09-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://yzxza.github.io/2024/01/19/text19/</loc>
     
     <lastmod>2024-01-19</lastmod>
@@ -205,13 +214,6 @@
   </url>
   
   <url>
-    <loc>https://yzxza.github.io/tags/%E6%8B%BE%E5%8F%B6%E9%9B%86/</loc>
-    <lastmod>2024-09-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://yzxza.github.io/tags/DL%E5%9F%BA%E7%A1%80/</loc>
     <lastmod>2024-09-27</lastmod>
     <changefreq>weekly</changefreq>
@@ -234,6 +236,13 @@
   
   <url>
     <loc>https://yzxza.github.io/tags/%E5%BF%83%E7%90%86%E5%92%A8%E8%AF%A2/</loc>
+    <lastmod>2024-09-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://yzxza.github.io/tags/%E6%8B%BE%E5%8F%B6%E9%9B%86/</loc>
     <lastmod>2024-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -282,14 +291,14 @@
   </url>
   
   <url>
-    <loc>https://yzxza.github.io/tags/%E6%98%9F%E9%99%85%E7%A9%BF%E8%B6%8A/</loc>
+    <loc>https://yzxza.github.io/tags/%E7%9B%97%E6%A2%A6%E7%A9%BA%E9%97%B4/</loc>
     <lastmod>2024-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://yzxza.github.io/tags/%E7%9B%97%E6%A2%A6%E7%A9%BA%E9%97%B4/</loc>
+    <loc>https://yzxza.github.io/tags/%E6%98%9F%E9%99%85%E7%A9%BF%E8%B6%8A/</loc>
     <lastmod>2024-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -333,14 +342,14 @@
   </url>
   
   <url>
-    <loc>https://yzxza.github.io/categories/%E6%8B%BE%E5%8F%B6%E9%9B%86/</loc>
+    <loc>https://yzxza.github.io/categories/%E5%B7%A5%E4%BD%9C/</loc>
     <lastmod>2024-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://yzxza.github.io/categories/%E5%B7%A5%E4%BD%9C/</loc>
+    <loc>https://yzxza.github.io/categories/%E6%8B%BE%E5%8F%B6%E9%9B%86/</loc>
     <lastmod>2024-09-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
