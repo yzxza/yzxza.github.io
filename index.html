@@ -1,1114 +1,139 @@
-<!DOCTYPE html>
+<!doctype html>
+<html lang="zh-CN" data-lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-
-<html lang="zh-CN">
-  
-
-    <head>
-      <meta charset="utf-8" />
-       
-      <meta name="keywords" content="生活,笔记,旅行,人文" />
-       
-      <meta name="description" content="人文，历史与生活" />
-      
-      <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1, maximum-scale=1"
-      />
-      <title> 一只晓zi</title>
-  <meta name="generator" content="hexo-theme-ayer">
-      
-      <link rel="shortcut icon" href="/favicon.ico" />
-       
-<link rel="stylesheet" href="/dist/main.css">
-
-      
-<link rel="stylesheet" href="/css/fonts/remixicon.css">
-
-      
-<link rel="stylesheet" href="/css/custom.css">
- 
-      <script src="https://cdn.staticfile.org/pace/1.2.4/pace.min.js"></script>
-       
-
-<script type="text/javascript">
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-ga('create', '[object Object]', 'auto');
-ga('send', 'pageview');
-
-</script>
-
-
- 
+<title>一只晓zi</title>
+<meta name="description" content="产品、旅行与随笔">
+<meta name="author" content="晓子">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<!-- apply saved language / theme before paint, so nothing flickers -->
 <script>
-var _hmt = _hmt || [];
-(function() {
-	var hm = document.createElement("script");
-	hm.src = "https://hm.baidu.com/hm.js?88d15ddee40723ca569a96b79ee14903";
-	var s = document.getElementsByTagName("script")[0]; 
-	s.parentNode.insertBefore(hm, s);
-})();
+  (function(){var r=document.documentElement;r.classList.add('js');
+  try{var l=localStorage.getItem('lang');if(l==='en'){r.dataset.lang='en';r.lang='en';}
+  var t=localStorage.getItem('theme');if(t)r.dataset.theme=t;}catch(e){}})();
 </script>
-
-
-      <link
-        rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-bulma@5.0.1/bulma.min.css"
-      />
-      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.min.js"></script>
-
-      <!-- mermaid -->
-      
-      <style>
-        .swal2-styled.swal2-confirm {
-          font-size: 1.6rem;
-        }
-      </style>
-    <link rel="alternate" href="/atom.xml" title="一只晓zi" type="application/atom+xml">
-</head>
-  </html>
-</html>
-
-
+<link rel="stylesheet" href="/css/style.css">
+<meta name="generator" content="Hexo 6.3.0"></head>
 <body>
-  <div id="app">
-    
-      
-    <main class="content on">
-      
-<section class="cover">
-    
-  <div class="cover-frame">
-    <div class="bg-box">
-      <img src="/images/cover2.jpg" alt="image frame" />
+
+<header id="hdr"><div class="wrap">
+  <a class="brand" href="/" aria-label="一只晓zi">
+    <svg class="bmark" viewBox="0 0 32 32"><rect x="1" y="1" width="30" height="30" rx="6" fill="none" stroke="currentColor" stroke-width="1.6"/><text x="16" y="21.5" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-style="italic" font-size="15" fill="var(--accent)">xz</text></svg>
+    <span class="btx"><b>一只晓zi</b><small>YZXZA</small></span>
+  </a>
+  <nav>
+    <div class="links" id="links">
+      <a href="/" class="on"><span class="zh">首页</span><span class="en">Home</span></a><span class="sep"></span><a href="/ai/" class=""><span class="zh">AI 产品</span><span class="en">AI Products</span></a><a href="/travel/" class=""><span class="zh">旅行</span><span class="en">Travel</span></a><a href="/essay/" class=""><span class="zh">随笔</span><span class="en">Essays</span></a><span class="sep"></span><a href="/archives/" class=""><span class="zh">归档</span><span class="en">Archive</span></a><a href="/about/" class=""><span class="zh">关于</span><span class="en">About</span></a>
     </div>
-    <div class="cover-inner text-center text-white">
-      <h1><a href="/">一只晓zi</a></h1>
-      <div id="subtitle-box">
-        
-        <span id="subtitle"></span>
-        
-      </div>
-      <div>
-        
-      </div>
+    <div class="tools">
+      <button class="tbtn lang" id="langBtn" aria-label="中文 / English"><b>中</b> / EN</button>
+      <button class="tbtn" id="themeBtn" aria-label="Light / dark"><svg viewBox="0 0 16 16" width="14" height="14" style="display:block"><circle cx="8" cy="8" r="6" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M8 2a6 6 0 0 1 0 12Z" fill="currentColor"/></svg></button>
+      <button class="tbtn burger" id="burger" aria-label="Menu">☰</button>
     </div>
-  </div>
-  <div class="cover-learn-more">
-    <a href="javascript:void(0)" class="anchor"><i class="ri-arrow-down-line"></i></a>
-  </div>
-</section>
-
-
-
-<script src="https://cdn.staticfile.org/typed.js/2.0.12/typed.min.js"></script>
-
-
-<!-- Subtitle -->
-
-  <script>
-    try {
-      var typed = new Typed("#subtitle", {
-        strings: ['像阵雨下到了南极', '不管什么歌看评论都貌似很好听的样子', '在那个岛屿，撒满了繁星'],
-        startDelay: 0,
-        typeSpeed: 200,
-        loop: true,
-        backSpeed: 100,
-        showCursor: true
-      });
-    } catch (err) {
-      console.log(err)
-    }
-  </script>
-  
-<div id="main">
-  <section class="outer">
-  
-  
-  
-
-<div class="notice" style="margin-top:50px">
-    <i class="ri-heart-fill"></i>
-    <div class="notice-content" id="broad"></div>
-</div>
-<script type="text/javascript">
-    fetch('https://v1.hitokoto.cn')
-        .then(response => response.json())
-        .then(data => {
-            document.getElementById("broad").innerHTML = data.hitokoto;
-        })
-        .catch(console.error)
-</script>
-
-<style>
-    .notice {
-        padding: 20px;
-        border: 1px dashed #e6e6e6;
-        color: #969696;
-        position: relative;
-        display: inline-block;
-        width: 100%;
-        background: #fbfbfb50;
-        border-radius: 10px;
-    }
-
-    .notice i {
-        float: left;
-        color: #999;
-        font-size: 16px;
-        padding-right: 10px;
-        vertical-align: middle;
-        margin-top: -2px;
-    }
-
-    .notice-content {
-        display: initial;
-        vertical-align: middle;
-    }
-</style>
-  
-  <article class="articles">
-    
-    
-    
-    
-    <article
-  id="post-text20"
-  class="article article-type-post"
-  itemscope
-  itemprop="blogPost"
-  data-scroll-reveal
->
-  <div class="article-inner">
-    
-    <header class="article-header">
-       
-<h2 itemprop="name">
-  <a class="article-title" href="/2024/09/28/text20/"
-    >准备国庆放假啦</a> 
-</h2>
- 
-
-      
-    </header>
-     
-    <div class="article-meta">
-      <a href="/2024/09/28/text20/" class="article-date">
-  <time datetime="2024-09-27T16:41:56.000Z" itemprop="datePublished">2024-09-28</time>
-</a>    
-    </div>
-      
-    <div class="article-entry" itemprop="articleBody">
-       
-  <p>因为用github登Dify平台，顺势开启了尘封已久的博客。<br>惊觉此间留存着往昔的我，往昔的我的思绪与影迹。</p> 
-      <a class="article-more-link" href="/2024/09/28/text20/"
-        >阅读更多...</a
-      >
-       
-      <!-- reward -->
-      
-    </div>
-    
-
-    <!-- copyright -->
-    
-    <footer class="article-footer">
-       
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%8B%BE%E5%8F%B6%E9%9B%86/" rel="tag">拾叶集</a></li></ul>
-
-    </footer>
-  </div>
-
-    
- 
-    
-</article>
-
-    
-    <article
-  id="post-text19"
-  class="article article-type-post"
-  itemscope
-  itemprop="blogPost"
-  data-scroll-reveal
->
-  <div class="article-inner">
-    
-    <header class="article-header">
-       
-<h2 itemprop="name">
-  <a class="article-title" href="/2024/01/19/text19/"
-    >2024嗯嗯嗯啊</a> 
-</h2>
- 
-
-      
-    </header>
-     
-    <div class="article-meta">
-      <a href="/2024/01/19/text19/" class="article-date">
-  <time datetime="2024-01-19T05:55:56.000Z" itemprop="datePublished">2024-01-19</time>
-</a>    
-    </div>
-      
-    <div class="article-entry" itemprop="articleBody">
-       
-  <p>好久不见my blog</p> 
-      <a class="article-more-link" href="/2024/01/19/text19/"
-        >阅读更多...</a
-      >
-       
-      <!-- reward -->
-      
-    </div>
-    
-
-    <!-- copyright -->
-    
-    <footer class="article-footer">
-       
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%8B%BE%E5%8F%B6%E9%9B%86/" rel="tag">拾叶集</a></li></ul>
-
-    </footer>
-  </div>
-
-    
- 
-    
-</article>
-
-    
-    <article
-  id="post-text17"
-  class="article article-type-post"
-  itemscope
-  itemprop="blogPost"
-  data-scroll-reveal
->
-  <div class="article-inner">
-    
-    <header class="article-header">
-       
-<h2 itemprop="name">
-  <a class="article-title" href="/2023/07/06/text17/"
-    >听了世界人工智能大会的感受-DAY1</a> 
-</h2>
- 
-
-      
-    </header>
-     
-    <div class="article-meta">
-      <a href="/2023/07/06/text17/" class="article-date">
-  <time datetime="2023-07-06T09:14:08.000Z" itemprop="datePublished">2023-07-06</time>
-</a> 
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%E5%B7%A5%E4%BD%9C/">工作</a>
-  </div>
-   
-    </div>
-      
-    <div class="article-entry" itemprop="articleBody">
-       
-  <p>上周报了人工智能大会，打算明天去现场瞅瞅，今天就线上看了一波直播。</p> 
-      <a class="article-more-link" href="/2023/07/06/text17/"
-        >阅读更多...</a
-      >
-       
-      <!-- reward -->
-      
-    </div>
-    
-
-    <!-- copyright -->
-    
-    <footer class="article-footer">
-       
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E4%B8%96%E7%95%8C%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%A4%A7%E4%BC%9A/" rel="tag">世界人工智能大会</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%B7%A5%E4%BD%9C%E7%AC%94%E8%AE%B0/" rel="tag">工作笔记</a></li></ul>
-
-    </footer>
-  </div>
-
-    
- 
-    
-</article>
-
-    
-    <article
-  id="post-text14"
-  class="article article-type-post"
-  itemscope
-  itemprop="blogPost"
-  data-scroll-reveal
->
-  <div class="article-inner">
-    
-    <header class="article-header">
-       
-<h2 itemprop="name">
-  <a class="article-title" href="/2023/05/16/text14/"
-    >心理咨询&amp;笔记</a> 
-</h2>
- 
-
-      
-    </header>
-     
-    <div class="article-meta">
-      <a href="/2023/05/16/text14/" class="article-date">
-  <time datetime="2023-05-16T01:15:30.000Z" itemprop="datePublished">2023-05-16</time>
-</a> 
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%E6%8B%BE%E5%8F%B6%E9%9B%86/">拾叶集</a>
-  </div>
-   
-    </div>
-      
-    <div class="article-entry" itemprop="articleBody">
-       
-  <p>偶然薅到了工会免费的心理咨询，在第二次咨询时遇到了很好的老师。做个记录吧，其实也是想通过咨询让自己内心强大起来，进而寻找真正适合自己的职业路径。</p> 
-      <a class="article-more-link" href="/2023/05/16/text14/"
-        >阅读更多...</a
-      >
-       
-      <!-- reward -->
-      
-    </div>
-    
-
-    <!-- copyright -->
-    
-    <footer class="article-footer">
-       
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%BF%83%E7%90%86%E5%92%A8%E8%AF%A2/" rel="tag">心理咨询</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%BF%83%E7%90%86%E5%AD%A6/" rel="tag">心理学</a></li></ul>
-
-    </footer>
-  </div>
-
-    
- 
-    
-</article>
-
-    
-    <article
-  id="post-text16"
-  class="article article-type-post"
-  itemscope
-  itemprop="blogPost"
-  data-scroll-reveal
->
-  <div class="article-inner">
-    
-    <header class="article-header">
-       
-<h2 itemprop="name">
-  <a class="article-title" href="/2023/05/05/text16/"
-    >药物研发关键词笔记</a> 
-</h2>
- 
-
-      
-    </header>
-     
-    <div class="article-meta">
-      <a href="/2023/05/05/text16/" class="article-date">
-  <time datetime="2023-05-05T07:34:59.000Z" itemprop="datePublished">2023-05-05</time>
-</a> 
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%E5%B7%A5%E4%BD%9C/">工作</a>
-  </div>
-   
-    </div>
-      
-    <div class="article-entry" itemprop="articleBody">
-       
-  <p><strong>临床试验稽查</strong> 指由不直接涉及试验的人员所进行的一种系统性检查，以判定试验的实施、数据的记录和分析是否与试验方案、药品&#x2F; 医疗器械临床试验 管理规范与法规要求相持。</p> 
-      <a class="article-more-link" href="/2023/05/05/text16/"
-        >阅读更多...</a
-      >
-       
-      <!-- reward -->
-      
-    </div>
-    
-
-    <!-- copyright -->
-    
-    <footer class="article-footer">
-       
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E8%8D%AF%E7%89%A9%E7%A0%94%E5%8F%91/" rel="tag">药物研发</a></li></ul>
-
-    </footer>
-  </div>
-
-    
- 
-    
-</article>
-
-    
-    <article
-  id="post-text15"
-  class="article article-type-post"
-  itemscope
-  itemprop="blogPost"
-  data-scroll-reveal
->
-  <div class="article-inner">
-    
-    <header class="article-header">
-       
-<h2 itemprop="name">
-  <a class="article-title" href="/2023/04/28/text15/"
-    >我的公司电脑也可以更博客了</a> 
-</h2>
- 
-
-      
-    </header>
-     
-    <div class="article-meta">
-      <a href="/2023/04/28/text15/" class="article-date">
-  <time datetime="2023-04-28T01:38:09.000Z" itemprop="datePublished">2023-04-28</time>
-</a>    
-    </div>
-      
-    <div class="article-entry" itemprop="articleBody">
-       
-  <p>测试ing<br>算是今天上班完成的第一件事。<br>但却不知道可以写点什么</p> 
-      <a class="article-more-link" href="/2023/04/28/text15/"
-        >阅读更多...</a
-      >
-       
-      <!-- reward -->
-      
-    </div>
-    
-
-    <!-- copyright -->
-    
-    <footer class="article-footer">
-       
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%8B%BE%E5%8F%B6%E9%9B%86/" rel="tag">拾叶集</a></li></ul>
-
-    </footer>
-  </div>
-
-    
- 
-    
-</article>
-
-    
-    <article
-  id="post-text13"
-  class="article article-type-post"
-  itemscope
-  itemprop="blogPost"
-  data-scroll-reveal
->
-  <div class="article-inner">
-    
-    <header class="article-header">
-       
-<h2 itemprop="name">
-  <a class="article-title" href="/2022/12/04/text13/"
-    >不知自己会喜欢何种生活状态呢</a> 
-</h2>
- 
-
-      
-    </header>
-     
-    <div class="article-meta">
-      <a href="/2022/12/04/text13/" class="article-date">
-  <time datetime="2022-12-04T11:55:31.000Z" itemprop="datePublished">2022-12-04</time>
-</a> 
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%E6%8B%BE%E5%8F%B6%E9%9B%86/">拾叶集</a>
-  </div>
-   
-    </div>
-      
-    <div class="article-entry" itemprop="articleBody">
-       
-  <p>入职差不多5个月了，而入职也意味着我就这样开始了一段新的生活。可是最近愈发发现自己的状态似乎没有刚入职那般热情了，这样子持续打工+玩耍的状态很充实，却一下子会看不到未来的路。</p> 
-      <a class="article-more-link" href="/2022/12/04/text13/"
-        >阅读更多...</a
-      >
-       
-      <!-- reward -->
-      
-    </div>
-    
-
-    <!-- copyright -->
-    
-    <footer class="article-footer">
-       
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%8B%BE%E5%8F%B6%E9%9B%86/" rel="tag">拾叶集</a></li></ul>
-
-    </footer>
-  </div>
-
-    
- 
-    
-</article>
-
-    
-    <article
-  id="post-text12"
-  class="article article-type-post"
-  itemscope
-  itemprop="blogPost"
-  data-scroll-reveal
->
-  <div class="article-inner">
-    
-    <header class="article-header">
-       
-<h2 itemprop="name">
-  <a class="article-title" href="/2022/08/16/text12/"
-    >深度学习的一些重要思想</a> 
-</h2>
- 
-
-      
-    </header>
-     
-    <div class="article-meta">
-      <a href="/2022/08/16/text12/" class="article-date">
-  <time datetime="2022-08-16T08:24:56.000Z" itemprop="datePublished">2022-08-16</time>
-</a> 
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%E5%B7%A5%E4%BD%9C/">工作</a>
-  </div>
-   
-    </div>
-      
-    <div class="article-entry" itemprop="articleBody">
-       
-  <p>一些非常简略的笔记。</p> 
-      <a class="article-more-link" href="/2022/08/16/text12/"
-        >阅读更多...</a
-      >
-       
-      <!-- reward -->
-      
-    </div>
-    
-
-    <!-- copyright -->
-    
-    <footer class="article-footer">
-       
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/DL%E5%9F%BA%E7%A1%80/" rel="tag">DL基础</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" rel="tag">学习笔记</a></li></ul>
-
-    </footer>
-  </div>
-
-    
- 
-    
-</article>
-
-    
-    <article
-  id="post-text9"
-  class="article article-type-post"
-  itemscope
-  itemprop="blogPost"
-  data-scroll-reveal
->
-  <div class="article-inner">
-    
-    <header class="article-header">
-       
-<h2 itemprop="name">
-  <a class="article-title" href="/2022/05/30/text9/"
-    >单反基础知识复盘</a> 
-</h2>
- 
-
-      
-    </header>
-     
-    <div class="article-meta">
-      <a href="/2022/05/30/text9/" class="article-date">
-  <time datetime="2022-05-30T04:03:38.000Z" itemprop="datePublished">2022-05-30</time>
-</a> 
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%E6%91%84%E5%BD%B1/">摄影</a>
-  </div>
-   
-    </div>
-      
-    <div class="article-entry" itemprop="articleBody">
-       
-  <p>最近重新刷了一遍单反的基础知识，做个总结，以备后续查看。学完后发现之前用单反几乎是傻瓜式凭感觉拍。</p> 
-      <a class="article-more-link" href="/2022/05/30/text9/"
-        >阅读更多...</a
-      >
-       
-      <!-- reward -->
-      
-    </div>
-    
-
-    <!-- copyright -->
-    
-    <footer class="article-footer">
-       
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%91%84%E5%BD%B1/" rel="tag">摄影</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E7%9F%A5%E8%AF%86/" rel="tag">知识</a></li></ul>
-
-    </footer>
-  </div>
-
-    
- 
-    
-</article>
-
-    
-    <article
-  id="post-text8"
-  class="article article-type-post"
-  itemscope
-  itemprop="blogPost"
-  data-scroll-reveal
->
-  <div class="article-inner">
-    
-    <header class="article-header">
-       
-<h2 itemprop="name">
-  <a class="article-title" href="/2022/05/18/text8/"
-    >终于run了</a> 
-</h2>
- 
-
-      
-    </header>
-     
-    <div class="article-meta">
-      <a href="/2022/05/18/text8/" class="article-date">
-  <time datetime="2022-05-18T10:51:16.000Z" itemprop="datePublished">2022-05-18</time>
-</a> 
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%E6%8B%BE%E5%8F%B6%E9%9B%86/">拾叶集</a>
-  </div>
-   
-    </div>
-      
-    <div class="article-entry" itemprop="articleBody">
-       
-  <p>历经千辛万苦，终于终于，跑毒成功！<br>这几天真的太忙太忙了，今天终于有空补了个觉，此篇博客谨以记录此趟行程。</p> 
-      <a class="article-more-link" href="/2022/05/18/text8/"
-        >阅读更多...</a
-      >
-       
-      <!-- reward -->
-      
-    </div>
-    
-
-    <!-- copyright -->
-    
-    <footer class="article-footer">
-       
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%8B%BE%E5%8F%B6%E9%9B%86/" rel="tag">拾叶集</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E7%A6%BB%E6%B2%AA/" rel="tag">离沪</a></li></ul>
-
-    </footer>
-  </div>
-
-    
- 
-    
-</article>
-
-    
-  </article>
-  
-
-  
-  <nav class="page-nav">
-    
-    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/">下一页</a>
   </nav>
-  
-</section>
-</div>
+</div></header>
 
-      <footer class="footer">
-  <div class="outer">
-    <ul>
-      <li>
-        Copyrights &copy;
-        2022-2024
-        <i class="ri-heart-fill heart_icon"></i> 晓子
-      </li>
-    </ul>
-    <ul>
-      <li>
-        
-      </li>
-    </ul>
-    <ul>
-      <li>
-        
-        
-        <span>
-  <span><i class="ri-user-3-fill"></i>访问人数:<span id="busuanzi_value_site_uv"></span></span>
-  <span class="division">|</span>
-  <span><i class="ri-eye-fill"></i>浏览次数:<span id="busuanzi_value_page_pv"></span></span>
-</span>
-        
-      </li>
-    </ul>
-    <ul>
-      
-    </ul>
-    <ul>
-      
-    </ul>
-    <ul>
-      <li>
-        <!-- cnzz统计 -->
-        
-      </li>
-    </ul>
-  </div>
-</footer>    
-    </main>
-    <div class="float_btns">
-      <div class="totop" id="totop">
-  <i class="ri-arrow-up-line"></i>
-</div>
 
-<div class="todark" id="todark">
-  <i class="ri-moon-line"></i>
-</div>
-
-    </div>
-    <aside class="sidebar on">
-      <button class="navbar-toggle"></button>
-<nav class="navbar">
-  
-  <div class="logo">
-    <a href="/"><img src="/images/ayer-side.svg" alt="一只晓zi"></a>
-  </div>
-  
-  <ul class="nav nav-main">
-    
-    <li class="nav-item">
-      <a class="nav-item-link" href="/">主页</a>
-    </li>
-    
-    <li class="nav-item">
-      <a class="nav-item-link" href="/archives">归档</a>
-    </li>
-    
-    <li class="nav-item">
-      <a class="nav-item-link" href="/categories">分类</a>
-    </li>
-    
-    <li class="nav-item">
-      <a class="nav-item-link" href="/tags">标签</a>
-    </li>
-    
-    <li class="nav-item">
-      <a class="nav-item-link" href="/tags/%E6%97%85%E8%A1%8C/">旅行</a>
-    </li>
-    
-    <li class="nav-item">
-      <a class="nav-item-link" href="/friends">友链</a>
-    </li>
-    
-    <li class="nav-item">
-      <a class="nav-item-link" href="/about/about.html">关于我</a>
-    </li>
-    
-  </ul>
-</nav>
-<nav class="navbar navbar-bottom">
-  <ul class="nav">
-    <li class="nav-item">
-      
-      <a class="nav-item-link nav-item-search"  title="搜索">
-        <i class="ri-search-line"></i>
-      </a>
-      
-      
-      <a class="nav-item-link" target="_blank" href="/atom.xml" title="RSS Feed">
-        <i class="ri-rss-line"></i>
-      </a>
-      
-    </li>
-  </ul>
-</nav>
-<div class="search-form-wrap">
-  <div class="local-search local-search-plugin">
-  <input type="search" id="local-search-input" class="local-search-input" placeholder="Search...">
-  <div id="local-search-result" class="local-search-result"></div>
-</div>
-</div>
+<main class="page"><div class="wrap">
+  <div class="home">
+    <aside class="profile rv">
+      <div class="avatar">晓</div>
+      <h1><span class="zh">晓子</span><span class="en">Xiaozi</span></h1>
+      <div class="role"><span class="zh">AI 产品经理</span><span class="en">AI Product Manager</span></div>
+      <div class="edu"><span class="zh">XX大学 · 硕士</span><span class="en">XX University · M.A.</span></div>
+      <div class="plinks">
+        <span class="pl"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>email@example.com</span>
+        <a target="_blank" rel="noopener" href="https://github.com/yzxza"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-3.2 19.5c.5.1.7-.2.7-.5v-1.7c-2.8.6-3.4-1.3-3.4-1.3-.4-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.6 2.4 1.1 3 .9.1-.7.4-1.1.6-1.4-2.2-.3-4.6-1.1-4.6-5 0-1.1.4-2 1-2.7-.1-.3-.4-1.3.1-2.7 0 0 .8-.3 2.7 1a9.4 9.4 0 0 1 5 0c1.9-1.3 2.7-1 2.7-1 .5 1.4.2 2.4.1 2.7.6.7 1 1.6 1 2.7 0 3.9-2.4 4.7-4.6 5 .4.3.7.9.7 1.9V21c0 .3.2.6.7.5A10 10 0 0 0 12 2Z"/></svg>github.com/yzxza</a>
+      </div>
     </aside>
-    <div id="mask"></div>
 
-<!-- #reward -->
-<div id="reward">
-  <span class="close"><i class="ri-close-line"></i></span>
-  <p class="reward-p"><i class="ri-cup-line"></i>请我喝杯咖啡吧~</p>
-  <div class="reward-box">
-    
-    <div class="reward-item">
-      <img class="reward-img" src="/images/alipay.jpg">
-      <span class="reward-type">支付宝</span>
-    </div>
-    
-    
-    <div class="reward-item">
-      <img class="reward-img" src="/images/wechat.jpg">
-      <span class="reward-type">微信</span>
-    </div>
-    
+    <div>
+      <div class="bio rv">
+        <div class="label"><span class="zh">简介</span><span class="en">About</span></div>
+        <p class="lede"><span class="zh">晓子，<strong>AI 产品经理</strong>。工作集中于医药研发与决策场景中的大模型应用，涉及竞争情报检索、临床数据评估与产品组合分析。金融学硕士。</span><span class="en">Xiaozi is an <strong>AI Product Manager</strong> working on applications of large language models in pharmaceutical R&amp;D and decision-making, including competitive-intelligence retrieval, clinical data assessment and portfolio analysis. M.A. in Finance.</span></p>
+        <p><span class="zh">本站收录三类文字：产品项目的复盘、旅行记录，以及读书与生活的随笔。</span><span class="en">This site collects three kinds of writing — product case studies, travel notes, and essays on reading and everyday life.</span></p>
+      </div>
+
+      <div class="doors">
+        <a class="door rv" href="/ai/"><span class="n">01</span>
+          <svg class="ico doodle draw" viewBox="0 0 28 28"><circle class="s" cx="6" cy="14" r="3" pathLength="1"/><circle class="s" cx="22" cy="6" r="3" pathLength="1"/><circle class="s" cx="22" cy="22" r="3" pathLength="1"/><path class="s" d="M9 13 19 7M9 15l10 6" pathLength="1"/></svg>
+          <h3><span class="zh">AI 产品</span><span class="en">AI Products</span></h3><p><span class="zh">项目复盘</span><span class="en">Case studies</span></p></a>
+        <a class="door rv" href="/travel/"><span class="n">02</span>
+          <svg class="ico doodle draw" viewBox="0 0 28 28"><circle class="s" cx="14" cy="14" r="11" pathLength="1"/><path class="s" d="m18 10-2.5 5.5L10 18l2.5-5.5Z" pathLength="1"/></svg>
+          <h3><span class="zh">旅行</span><span class="en">Travel</span></h3><p><span class="zh">游记</span><span class="en">Travelogues</span></p></a>
+        <a class="door rv" href="/essay/"><span class="n">03</span>
+          <svg class="ico doodle draw" viewBox="0 0 28 28"><path class="s" d="M14 7c-3-2-7-2-10-1v16c3-1 7-1 10 1 3-2 7-2 10-1V6c-3-1-7-1-10 1Zm0 0v16" pathLength="1"/></svg>
+          <h3><span class="zh">随笔</span><span class="en">Essays</span></h3><p><span class="zh">拾叶集 · 读书 · 摄影</span><span class="en">Gleanings · reading · photography</span></p></a>
+      </div>
+
+      
+
+      <div class="sec">
+        <div class="sec-t rv"><h2><span class="zh">近期随笔</span><span class="en">Recent Essays</span></h2><a href="/essay/"><span class="zh">全部</span><span class="en">All</span> <span class="arrow">→</span></a></div>
+        <div class="plist">
+
+<a class="item rv" href="/2024/09/27/text20/" data-f="拾叶集">
+  <time>2024-09-28</time>
+  <div>
+    <h3>准备国庆放假啦</h3>
+    <p>因为用github登Dify平台，顺势开启了尘封已久的博客。惊觉此间留存着往昔的我，往昔的我的思绪与影迹。</p>
+    <div class="meta"><span class=""><span class="zh">随笔</span><span class="en">Essays</span></span><span><span class="zh">拾叶集</span><span class="en">Gleanings</span></span></div>
   </div>
-</div>
-    
-<script src="/js/jquery-3.6.0.min.js"></script>
- 
-<script src="/js/lazyload.min.js"></script>
-
-<!-- Tocbot -->
-
-<script src="https://cdn.staticfile.org/jquery-modal/0.9.2/jquery.modal.min.js"></script>
-<link
-  rel="stylesheet"
-  href="https://cdn.staticfile.org/jquery-modal/0.9.2/jquery.modal.min.css"
-/>
-<script src="https://cdn.staticfile.org/justifiedGallery/3.8.1/js/jquery.justifiedGallery.min.js"></script>
-
-<script src="/dist/main.js"></script>
-
-<!-- ImageViewer -->
- <!-- Root element of PhotoSwipe. Must have class pswp. -->
-<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-
-    <!-- Background of PhotoSwipe. 
-         It's a separate element as animating opacity is faster than rgba(). -->
-    <div class="pswp__bg"></div>
-
-    <!-- Slides wrapper with overflow:hidden. -->
-    <div class="pswp__scroll-wrap">
-
-        <!-- Container that holds slides. 
-            PhotoSwipe keeps only 3 of them in the DOM to save memory.
-            Don't modify these 3 pswp__item elements, data is added later on. -->
-        <div class="pswp__container">
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-        </div>
-
-        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
-        <div class="pswp__ui pswp__ui--hidden">
-
-            <div class="pswp__top-bar">
-
-                <!--  Controls are self-explanatory. Order can be changed. -->
-
-                <div class="pswp__counter"></div>
-
-                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-
-                <button class="pswp__button pswp__button--share" style="display:none" title="Share"></button>
-
-                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-
-                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-
-                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
-                <!-- element will get class pswp__preloader--active when preloader is running -->
-                <div class="pswp__preloader">
-                    <div class="pswp__preloader__icn">
-                        <div class="pswp__preloader__cut">
-                            <div class="pswp__preloader__donut"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                <div class="pswp__share-tooltip"></div>
-            </div>
-
-            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-            </button>
-
-            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-            </button>
-
-            <div class="pswp__caption">
-                <div class="pswp__caption__center"></div>
-            </div>
-
-        </div>
-
-    </div>
-
-</div>
-
-<link rel="stylesheet" href="https://cdn.staticfile.org/photoswipe/4.1.3/photoswipe.min.css">
-<link rel="stylesheet" href="https://cdn.staticfile.org/photoswipe/4.1.3/default-skin/default-skin.min.css">
-<script src="https://cdn.staticfile.org/photoswipe/4.1.3/photoswipe.min.js"></script>
-<script src="https://cdn.staticfile.org/photoswipe/4.1.3/photoswipe-ui-default.min.js"></script>
-
-<script>
-    function viewer_init() {
-        let pswpElement = document.querySelectorAll('.pswp')[0];
-        let $imgArr = document.querySelectorAll(('.article-entry img:not(.reward-img)'))
-
-        $imgArr.forEach(($em, i) => {
-            $em.onclick = () => {
-                // slider展开状态
-                // todo: 这样不好，后面改成状态
-                if (document.querySelector('.left-col.show')) return
-                let items = []
-                $imgArr.forEach(($em2, i2) => {
-                    let img = $em2.getAttribute('data-idx', i2)
-                    let src = $em2.getAttribute('data-target') || $em2.getAttribute('src')
-                    let title = $em2.getAttribute('alt')
-                    // 获得原图尺寸
-                    const image = new Image()
-                    image.src = src
-                    items.push({
-                        src: src,
-                        w: image.width || $em2.width,
-                        h: image.height || $em2.height,
-                        title: title
-                    })
-                })
-                var gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, {
-                    index: parseInt(i)
-                });
-                gallery.init()
-            }
-        })
-    }
-    viewer_init()
-</script> 
-<!-- MathJax -->
-
-<!-- Katex -->
-
-<!-- busuanzi  -->
- 
-<script src="/js/busuanzi-2.3.pure.min.js"></script>
- 
-<!-- ClickLove -->
-
-<!-- ClickBoom1 -->
-
-<!-- ClickBoom2 -->
-
-<!-- CodeCopy -->
- 
-<link rel="stylesheet" href="/css/clipboard.css">
- <script src="https://cdn.staticfile.org/clipboard.js/2.0.10/clipboard.min.js"></script>
-<script>
-  function wait(callback, seconds) {
-    var timelag = null;
-    timelag = window.setTimeout(callback, seconds);
-  }
-  !function (e, t, a) {
-    var initCopyCode = function(){
-      var copyHtml = '';
-      copyHtml += '<button class="btn-copy" data-clipboard-snippet="">';
-      copyHtml += '<i class="ri-file-copy-2-line"></i><span>COPY</span>';
-      copyHtml += '</button>';
-      $(".highlight .code pre").before(copyHtml);
-      $(".article pre code").before(copyHtml);
-      var clipboard = new ClipboardJS('.btn-copy', {
-        target: function(trigger) {
-          return trigger.nextElementSibling;
-        }
-      });
-      clipboard.on('success', function(e) {
-        let $btn = $(e.trigger);
-        $btn.addClass('copied');
-        let $icon = $($btn.find('i'));
-        $icon.removeClass('ri-file-copy-2-line');
-        $icon.addClass('ri-checkbox-circle-line');
-        let $span = $($btn.find('span'));
-        $span[0].innerText = 'COPIED';
-        
-        wait(function () { // 等待两秒钟后恢复
-          $icon.removeClass('ri-checkbox-circle-line');
-          $icon.addClass('ri-file-copy-2-line');
-          $span[0].innerText = 'COPY';
-        }, 2000);
-      });
-      clipboard.on('error', function(e) {
-        e.clearSelection();
-        let $btn = $(e.trigger);
-        $btn.addClass('copy-failed');
-        let $icon = $($btn.find('i'));
-        $icon.removeClass('ri-file-copy-2-line');
-        $icon.addClass('ri-time-line');
-        let $span = $($btn.find('span'));
-        $span[0].innerText = 'COPY FAILED';
-        
-        wait(function () { // 等待两秒钟后恢复
-          $icon.removeClass('ri-time-line');
-          $icon.addClass('ri-file-copy-2-line');
-          $span[0].innerText = 'COPY';
-        }, 2000);
-      });
-    }
-    initCopyCode();
-  }(window, document);
-</script>
- 
-<!-- CanvasBackground -->
-
-<script>
-  if (window.mermaid) {
-    mermaid.initialize({ theme: "forest" });
-  }
-</script>
+</a>
 
 
-    
-    <div id="music">
-    
-    
-    
-    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=22712173&auto=1&height=66"></iframe>
-    <!-- <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1410370185&auto=1&height=66"></iframe> -->
-    
-    <!-- <iframe frameborder="no" border="1" marginwidth="0" marginheight="0" width="200" height="52"
-        src="//music.163.com/outchain/player?type=2&id=22712173&auto=1&height=32"></iframe> -->
-</div>
-
-<style>
-    #music {
-        position: fixed;
-        right: 15px;
-        bottom: 0;
-        z-index: 998;
-    }
-</style>
-    
-    
-
+<a class="item rv" href="/2024/01/19/text19/" data-f="拾叶集">
+  <time>2024-01-19</time>
+  <div>
+    <h3>2024嗯嗯嗯啊</h3>
+    <p>好久不见my blog</p>
+    <div class="meta"><span class=""><span class="zh">随笔</span><span class="en">Essays</span></span><span><span class="zh">拾叶集</span><span class="en">Gleanings</span></span></div>
   </div>
+</a>
+
+
+<a class="item rv" href="/2023/07/06/text17/" data-f="工作">
+  <time>2023-07-06</time>
+  <div>
+    <h3>听了世界人工智能大会的感受-DAY1</h3>
+    <p>上周报了人工智能大会，打算明天去现场瞅瞅，今天就线上看了一波直播。</p>
+    <div class="meta"><span class=""><span class="zh">随笔</span><span class="en">Essays</span></span><span><span class="zh">工作</span><span class="en">Work Notes</span></span><span><span class="zh">世界人工智能大会</span><span class="en">WAIC</span> / <span class="zh">工作笔记</span><span class="en">Work Notes</span></span></div>
+  </div>
+</a>
+
+
+<a class="item rv" href="/2023/05/16/text14/" data-f="拾叶集">
+  <time>2023-05-16</time>
+  <div>
+    <h3>心理咨询&amp;笔记</h3>
+    <p>偶然薅到了工会免费的心理咨询，在第二次咨询时遇到了很好的老师。做个记录吧，其实也是想通过咨询让自己内心强大起来，进而寻找真正适合自己的职业路径。</p>
+    <div class="meta"><span class=""><span class="zh">随笔</span><span class="en">Essays</span></span><span><span class="zh">拾叶集</span><span class="en">Gleanings</span></span><span><span class="zh">心理学</span><span class="en">Psychology</span> / <span class="zh">心理咨询</span><span class="en">Counseling</span></span></div>
+  </div>
+</a>
+</div>
+      </div>
+    </div>
+  </div>
+</div></main>
+
+<footer><div class="wrap">
+  <div>© 2022 – 2026 晓子 · <span class="zh">文章除特别声明外著作权归作者所有</span><span class="en">All rights reserved unless otherwise stated</span></div>
+  <div class="fl"><a href="/friends/"><span class="zh">友链</span><span class="en">Friends</span></a></div>
+</div></footer>
+
+<div class="player" id="player">
+  <button id="playBtn" aria-label="Play music"><svg id="playIco" viewBox="0 0 16 16" fill="currentColor"><path d="M4 2.5v11l9-5.5z"/></svg></button>
+  <span class="eq"><i></i><i></i><i></i></span>
+  <span class="song"><b>Refrain</b> · 阿南亮子</span>
+  <audio id="bgm" loop preload="none" src="https://music.163.com/song/media/outer/url?id=22712173.mp3"></audio>
+</div>
+
+<button class="totop" id="totop" aria-label="Back to top">↑</button>
+
+<script src="/js/main.js"></script>
 </body>
-
 </html>
