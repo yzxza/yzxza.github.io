@@ -99,6 +99,15 @@ a:hover .arrow{transform:translateX(4px)}
 .profile .edu{color:var(--ink-3);font-size:13px;line-height:1.5;margin-top:10px;padding-top:10px;border-top:1px solid var(--line);max-width:220px}
 .plinks{margin-top:18px;display:grid;gap:6px;font-size:14px;color:var(--ink-2)}
 .plinks a{display:flex;align-items:center;gap:10px;transition:color .2s}
+@media (max-width:860px){
+  .profile{display:grid;grid-template-columns:96px 1fr;column-gap:20px;align-items:center}
+  .profile .avatar,.profile .avatar.has-img{grid-row:1 / span 4;width:96px;height:96px;font-size:34px;box-shadow:0 0 0 3px var(--bg),0 0 0 4px var(--line),0 6px 18px rgba(20,23,28,.10)}
+  .profile h1{font-size:24px;margin:0 0 2px}
+  .profile .role,.profile .domain,.profile .edu{grid-column:2}
+  .profile .edu{margin-top:6px;padding-top:0;border-top:0;max-width:none}
+  .profile .plinks{grid-column:1 / -1;margin-top:20px;padding-top:16px;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;gap:6px 22px;font-size:14px}
+  .profile .plinks .pl,.profile .plinks a{display:flex;align-items:center;gap:8px}
+}
 .plinks a:hover{color:var(--accent)}
 .plinks svg{width:16px;height:16px;flex:none;opacity:.75}
 /* both intro paragraphs share one family, size and rhythm; only colour separates them */

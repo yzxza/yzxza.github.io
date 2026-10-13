@@ -47,6 +47,15 @@
   </url>
   
   <url>
+    <loc>https://yzxza.github.io/essay/index.html</loc>
+    
+    <lastmod>2026-10-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://yzxza.github.io/friends/index.html</loc>
     
     <lastmod>2026-10-13</lastmod>
@@ -56,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://yzxza.github.io/essay/index.html</loc>
+    <loc>https://yzxza.github.io/2018/08/10/text1/</loc>
     
     <lastmod>2026-10-13</lastmod>
     
@@ -83,7 +92,7 @@
   </url>
   
   <url>
-    <loc>https://yzxza.github.io/2023/05/16/text14/</loc>
+    <loc>https://yzxza.github.io/2023/04/28/text15/</loc>
     
     <lastmod>2026-10-13</lastmod>
     
@@ -92,7 +101,7 @@
   </url>
   
   <url>
-    <loc>https://yzxza.github.io/2023/04/28/text15/</loc>
+    <loc>https://yzxza.github.io/2023/05/16/text14/</loc>
     
     <lastmod>2026-10-13</lastmod>
     
@@ -201,15 +210,6 @@
   
   <url>
     <loc>https://yzxza.github.io/about/about.html</loc>
-    
-    <lastmod>2026-10-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://yzxza.github.io/2018/08/10/text1/</loc>
     
     <lastmod>2026-10-13</lastmod>
     
