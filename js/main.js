@@ -23,7 +23,11 @@
 
   /* mobile menu, header border, back to top */
   var burger = $('#burger'), links = $('#links');
-  if (burger) burger.onclick = function () { links.classList.toggle('open'); };
+  if (burger) {
+    burger.onclick = function (e) { e.stopPropagation(); links.classList.toggle('open'); };
+    document.addEventListener('click', function (e) { if (!links.contains(e.target)) links.classList.remove('open'); });
+    addEventListener('keydown', function (e) { if (e.key === 'Escape') links.classList.remove('open'); });
+  }
   var hdr = $('#hdr'), totop = $('#totop');
   addEventListener('scroll', function () {
     if (hdr) hdr.classList.toggle('scrolled', scrollY > 8);

@@ -12,6 +12,7 @@
 }
 :root[data-theme="dark"]{--bg:#0F1216;--bg-2:#161A20;--ink:#E7E9EC;--ink-2:#AEB4BD;--ink-3:#6F7782;--line:#252A31;--accent:#8FB3E8;--accent-soft:#1A2433}
 *{box-sizing:border-box;margin:0;padding:0}
+html{scroll-padding-top:80px}
 body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.8;-webkit-font-smoothing:antialiased;transition:background .3s,color .3s}
 a{color:inherit;text-decoration:none;cursor:pointer}
 .wrap{max-width:var(--w);margin:0 auto;padding:0 28px}
@@ -30,9 +31,9 @@ a{color:inherit;text-decoration:none;cursor:pointer}
 .ico{width:28px;height:28px;color:var(--ink-3);transition:color .3s,transform .45s var(--ease)}
 
 /* ---------- nav ---------- */
-header{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:saturate(1.4) blur(12px);border-bottom:1px solid transparent;transition:border-color .3s}
-header.scrolled{border-bottom-color:var(--line)}
-header .wrap{height:62px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+#hdr{position:sticky;top:0;z-index:50;background:var(--bg);background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:saturate(1.4) blur(12px);border-bottom:1px solid transparent;transition:border-color .3s}
+#hdr.scrolled{border-bottom-color:var(--line)}
+#hdr .wrap{height:62px;display:flex;align-items:center;justify-content:space-between;gap:16px}
 .brand{display:flex;align-items:center;gap:10px;color:var(--ink);white-space:nowrap}
 .brand .bmark{width:30px;height:30px;flex:none;transition:color .3s}
 .brand:hover .bmark{color:var(--accent)}
@@ -54,7 +55,10 @@ nav .sep{width:1px;height:16px;background:var(--line);margin:0 8px}
 .lang b{color:var(--accent)}
 .burger{display:none}
 @media (max-width:900px){
-  nav .links{display:none;position:absolute;top:62px;left:0;right:0;background:var(--bg);border-bottom:1px solid var(--line);flex-direction:column;align-items:stretch;padding:8px 16px}
+  nav .links{display:none;position:absolute;top:62px;left:0;right:0;z-index:60;background:var(--bg);border-bottom:1px solid var(--line);box-shadow:0 16px 30px -18px rgba(20,30,60,.35);flex-direction:column;align-items:stretch;padding:6px 16px 12px}
+  nav .links a{padding:11px 4px;border-bottom:1px solid var(--line)}
+  nav .links a:last-child{border-bottom:0}
+  nav .links a::after{display:none}
   nav .links.open{display:flex}nav .sep{display:none}.burger{display:inline-block}
 }
 
