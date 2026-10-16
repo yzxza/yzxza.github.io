@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="zh-CN" data-lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>把 SOP 模板变成 AI 能执行的规则：知情同意书智能撰写项目复盘 · 一只晓zi</title>
+<meta name="description" content="产品、旅行与随笔">
+<meta name="author" content="晓子">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<!-- apply saved language / theme before paint, so nothing flickers -->
+<script>
+  (function(){var r=document.documentElement;r.classList.add('js');
+  try{var l=localStorage.getItem('lang');if(l==='en'){r.dataset.lang='en';r.lang='en';}
+  var t=localStorage.getItem('theme');if(t)r.dataset.theme=t;}catch(e){}})();
+</script>
+<link rel="stylesheet" href="/css/style.css?v=1792159086748">
+<meta name="generator" content="Hexo 6.3.0"></head>
+<body>
+
+<header id="hdr"><div class="wrap">
+  <a class="brand" href="/" aria-label="一只晓zi">
+    <svg class="bmark" viewBox="0 0 32 32"><rect x="1" y="1" width="30" height="30" rx="6" fill="none" stroke="currentColor" stroke-width="1.6"/><text x="16" y="21.5" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-style="italic" font-size="15" fill="var(--accent)">xz</text></svg>
+    <span class="btx"><b>一只晓zi</b><small>YZXZA</small></span>
+  </a>
+  <nav>
+    <div class="links" id="links">
+      <a href="/" class=""><span class="zh">首页</span><span class="en">Home</span></a><span class="sep"></span><a href="/ai/" class=""><span class="zh">AI 产品</span><span class="en">AI Products</span></a><a href="/travel/" class=""><span class="zh">旅行</span><span class="en">Travel</span></a><a href="/essay/" class="on"><span class="zh">随笔</span><span class="en">Essays</span></a><span class="sep"></span><a href="/archives/" class=""><span class="zh">归档</span><span class="en">Archive</span></a><a href="/about/" class=""><span class="zh">关于</span><span class="en">About</span></a>
+    </div>
+    <div class="tools">
+      <button class="tbtn lang" id="langBtn" aria-label="中文 / English"><b>中</b> / EN</button>
+      <button class="tbtn" id="themeBtn" aria-label="Light / dark"><svg viewBox="0 0 16 16" width="14" height="14" style="display:block"><circle cx="8" cy="8" r="6" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M8 2a6 6 0 0 1 0 12Z" fill="currentColor"/></svg></button>
+      <button class="tbtn burger" id="burger" aria-label="Menu">☰</button>
+    </div>
+  </nav>
+</div></header>
+
+
+<main class="page"><div class="wrap">
+  <article class="post-wrap">
+    <div class="post-head">
+      <div class="crumb"><a href="/essay/"><span class="zh">随笔</span><span class="en">Essays</span></a> · <a href="/categories/AI-%E4%BA%A7%E5%93%81%E5%AE%9E%E8%B7%B5/">AI 产品实践</a></div>
+      <h1>把 SOP 模板变成 AI 能执行的规则：知情同意书智能撰写项目复盘</h1>
+      
+      <div class="meta">
+        <time>2026-10-15</time>
+        <a href="/tags/Agent/">#Agent</a><a href="/tags/AI-%E4%BA%A7%E5%93%81/">#<span class="zh">AI 产品</span><span class="en">AI Products</span></a><a href="/tags/%E5%8C%BB%E5%AD%A6%E5%86%99%E4%BD%9C/">#医学写作</a><a href="/tags/%E7%9F%A5%E6%83%85%E5%90%8C%E6%84%8F%E4%B9%A6/">#知情同意书</a><a href="/tags/%E9%A1%B9%E7%9B%AE%E5%A4%8D%E7%9B%98/">#项目复盘</a>
+      </div>
+      
+    </div>
+
+    <div class="prose"><blockquote>
+<p>本文为个人项目复盘，已做脱敏处理：不涉及任何公司、项目编号、药物、研究方案或人员信息。文中的例子均为通用示意。</p>
+</blockquote>
+<h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>项目是<strong>用 AI 起草临床试验的知情同意书（ICF）</strong>。</p>
+<p>做之前我以为这是个”让大模型照着模板写一份文档”的问题。做下来发现，真正的难点完全不在”写”，而在三件事：</p>
+<ol>
+<li>**AI 拿不准的时候，它会不会老实说”不知道”**，而不是编一句看起来很对的话；</li>
+<li><strong>审稿的人能不能快速核对</strong>，而不是从头逐字再读一遍；</li>
+<li><strong>模板一升级，系统能不能跟着变</strong>。</li>
+</ol>
+<p>这篇文章按”问题 → 判断 → 解法 → 交付 → 我做了什么 → 反思”的顺序展开。如果你只有两分钟，看第二节和第七节就够了。</p>
+<hr>
+<h2 id="一、ICF-是什么，为什么难写"><a href="#一、ICF-是什么，为什么难写" class="headerlink" title="一、ICF 是什么，为什么难写"></a>一、ICF 是什么，为什么难写</h2><p><strong>知情同意书</strong>是患者参加临床试验前必须读完并签字的文件。没有签字，任何试验检查都不能开始；医院伦理委员会不批准它，研究就不能入组。</p>
+<p>可以这样理解它和研究方案的关系：</p>
+<ul>
+<li><strong>研究方案</strong>是写给医生和监管看的”技术说明书”，几百页，满是专业术语；</li>
+<li><strong>ICF</strong> 只挑出其中和患者有关的部分，用大白话告诉他：要做什么检查、有什么风险、有什么好处、花不花钱、隐私怎么保护、随时可以退出。</li>
+</ul>
+<p>一份 ICF 通常有十几个章节，每章回答患者的一个问题：</p>
+<table>
+<thead>
+<tr>
+<th>章节</th>
+<th>患者的问题</th>
+<th>内容来源</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>关于研究 &#x2F; 研究药物</td>
+<td>研究什么药？怎么分组？</td>
+<td>研究方案、研究者手册</td>
+</tr>
+<tr>
+<td>研究期间会发生什么</td>
+<td>每次来医院做什么？</td>
+<td>方案里的访视流程表</td>
+</tr>
+<tr>
+<td>风险与不适 &#x2F; 妊娠避孕</td>
+<td>有什么风险？要避孕多久？</td>
+<td>药物警戒部门的标准文字、方案</td>
+</tr>
+<tr>
+<td>益处 &#x2F; 替代治疗</td>
+<td>参加有什么好处？不参加还能怎样？</td>
+<td>方案、临床团队</td>
+</tr>
+<tr>
+<td>费用、隐私、样本</td>
+<td>花不花钱？数据和样本去哪？</td>
+<td>预算、中心资料、法规要求</td>
+</tr>
+<tr>
+<td>退出、联系人、签字页</td>
+<td>能退出吗？有问题找谁？</td>
+<td>固定文字、各医院信息</td>
+</tr>
+</tbody></table>
+<p>起草一份 ICF，通常是临床运营的同事对着几百页方案和一份几十页的公司模板，逐章”删选项、填空、改写成白话”，再交给药物警戒、医学、法务等多个部门往返审核。</p>
+<p>它难在四个地方：</p>
+<ul>
+<li><strong>信息分散</strong>：访视、检查项目、避孕时长、禁用药散落在方案各处，很多还藏在大表格的脚注里；</li>
+<li><strong>选项多</strong>：模板里同一段经常有好几种写法（比如研究目的就分 I 期、对照药、背景治疗等写法），要按研究设计选对；</li>
+<li><strong>要翻译成白话</strong>：方案是专业术语，患者要看得懂；</li>
+<li><strong>写错有合规风险</strong>：没有依据写”已获批准”、改动了风险标准文字、漏告知数据出境——这些都可能导致伦理退回。</li>
+</ul>
+<p>前三个是 AI 擅长的；<strong>第四个恰恰是 AI 最危险的地方</strong>。整个产品设计，就是在发挥前者、防住后者。</p>
+<hr>
+<h2 id="二、第一个关键判断：这不是”写作”问题"><a href="#二、第一个关键判断：这不是”写作”问题" class="headerlink" title="二、第一个关键判断：这不是”写作”问题"></a>二、第一个关键判断：这不是”写作”问题</h2><p>项目初期最直接的思路是：把方案和模板一起丢给大模型，让它”照着模板写一份”。</p>
+<p>这样写出来的稿子<strong>读起来很通顺</strong>，但问题全藏在看不见的地方：</p>
+<ol>
+<li><strong>该删的没删，不该删的删了。</strong> 很多公司模板用字体颜色区分”能不能改”（比如黑字不能动、蓝字可改），但蓝字里混着待填内容、写作提示、选项标签和候选正文。人一看就懂，模型分不清。</li>
+<li><strong>拿不准时会编。</strong> 找不到批件号、补贴金额、避孕时长，模型倾向于填一个”像样”的值。</li>
+<li><strong>固定文字被润色。</strong> 法规要求一字不改的条款，模型会顺手改得更”流畅”。</li>
+<li><strong>排版保不住。</strong> 页脚版本号、编号、签字页不跨页这些要求，模型直接改 Word 很难稳定。</li>
+<li><strong>审稿人无法核对。</strong> 不知道哪句来自模板、哪句是 AI 写的、依据在方案哪一页，只能从头读一遍——省下的时间又花回去了。</li>
+</ol>
+<p>所以我对这个问题的定义变成了：</p>
+<blockquote>
+<p><strong>ICF 撰写不是开放式写作，而是”在受控模板上做合规判断 + 从方案里取证填空”。</strong></p>
+</blockquote>
+<p>这个定义决定了后面所有的设计：<strong>不让 AI 自由发挥，而是让它在一套明确的规则里做选择题和填空题。</strong></p>
+<hr>
+<h2 id="三、解法：先治理模板，再谈生成"><a href="#三、解法：先治理模板，再谈生成" class="headerlink" title="三、解法：先治理模板，再谈生成"></a>三、解法：先治理模板，再谈生成</h2><p>既然模板里的规则是”靠人理解的暗规则”，那就先把它们写成<strong>明确的、机器能执行的规则</strong>。我们把这一步叫”模板治理”，具体做了三件事。</p>
+<h3 id="1-给模板的每一块钉上”门牌号”"><a href="#1-给模板的每一块钉上”门牌号”" class="headerlink" title="1. 给模板的每一块钉上”门牌号”"></a>1. 给模板的每一块钉上”门牌号”</h3><p>把整份模板切成约 190 个小块，每块用 Word 的内容控件（一个带名字的框）圈起来，名字按”章 → 段 → 选项”分层，比如：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">第2章-研究药物</span><br><span class="line">  ├─ 随机分组说明</span><br><span class="line">  ├─ 盲法说明</span><br><span class="line">  └─ 治疗组列表</span><br><span class="line">       └─ 治疗组示例条目</span><br></pre></td></tr></table></figure>
+
+<p>切块的原则是：<strong>一个能单独判断”留不留”的意思，就是一块。</strong> 比如男性避孕部分会拆成”对精子的影响””避孕要求””禁止捐精””输精管结扎豁免””伴侣怀孕”五块，因为不同研究可能只需要其中几块。</p>
+<h3 id="2-给每一块写一条处理规则"><a href="#2-给每一块写一条处理规则" class="headerlink" title="2. 给每一块写一条处理规则"></a>2. 给每一块写一条处理规则</h3><p>规则以批注的形式挂在每个框上。归纳下来只有四类：</p>
+<table>
+<thead>
+<tr>
+<th>规则类型</th>
+<th>白话意思</th>
+<th>例子</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>固定保留</td>
+<td>一字不动</td>
+<td>签字页、研究伤害条款</td>
+</tr>
+<tr>
+<td>多选一</td>
+<td>几个候选只留一个，每个候选写明适用条件</td>
+<td>研究目的的四种写法</td>
+</tr>
+<tr>
+<td>看条件保留</td>
+<td>满足条件才留；<strong>判断不了就留，并说明原因</strong></td>
+<td>“研究包含 MRI 检查”才保留 MRI 风险说明</td>
+</tr>
+<tr>
+<td>按实际数量重复</td>
+<td>模板只给一个样例，按方案实际有几个就写几个</td>
+<td>治疗组、访视清单</td>
+</tr>
+</tbody></table>
+<h3 id="3-在块里标出填空和写作提示"><a href="#3-在块里标出填空和写作提示" class="headerlink" title="3. 在块里标出填空和写作提示"></a>3. 在块里标出填空和写作提示</h3><ul>
+<li><code>[字段名]</code> 是待填的空。从方案里找得到就填；<strong>找不到就原样留着</strong>，让审稿人一眼看到缺什么。</li>
+<li><code>&#123;…&#125;</code> 是写给 AI 的提示，生成后删除。</li>
+</ul>
+<p>这些提示里沉淀了大量业务经验，几个典型：</p>
+<ul>
+<li>找不到批件号时，不能写”已获批准”，也不能用伦理批准代替监管批准；</li>
+<li>非肿瘤研究不能出现”后续抗肿瘤治疗”这类肿瘤专用说法；</li>
+<li>单盲研究不能沿用双盲的说明；</li>
+<li>药物风险只能用药物警戒部门提供的标准文字，AI 不能自己写；但方案里已经写明的事实（比如哪次访视验孕），不能以”需要药物警戒确认”为由留空。</li>
+</ul>
+<p><strong>一个完整例子</strong>——“盲法说明”这一块：</p>
+<table>
+<thead>
+<tr>
+<th>部分</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>正文</td>
+<td>“您和您的研究医生都无法预先知道您被分配到的组别……”</td>
+</tr>
+<tr>
+<td>规则</td>
+<td>看条件保留：方案是双盲才保留；判断不了就保留并说明原因</td>
+</tr>
+<tr>
+<td>提示</td>
+<td>单盲或其他盲法不能直接用这段，要按方案另写</td>
+</tr>
+</tbody></table>
+<p>AI 读完方案后只会有三种结果：双盲 → 保留；开放标签 → 删除；方案没写清 → **保留并标为”待确认”**。全部约 190 块都是这样处理的。</p>
+<hr>
+<h2 id="四、系统怎么跑：AI-交”答题卡”，程序负责排版和检查"><a href="#四、系统怎么跑：AI-交”答题卡”，程序负责排版和检查" class="headerlink" title="四、系统怎么跑：AI 交”答题卡”，程序负责排版和检查"></a>四、系统怎么跑：AI 交”答题卡”，程序负责排版和检查</h2><p>我常用一个类比向业务同事解释：</p>
+<ul>
+<li><strong>模板 &#x3D; 试卷</strong>：约 190 道题，每道题附着答题规则；</li>
+<li><strong>AI &#x3D; 考生</strong>：读完方案，对每道题交一个答案——留不留、选哪个、填什么、依据在方案哪里、拿不准的原因；</li>
+<li><strong>程序 &#x3D; 阅卷机 + 排版员</strong>：先检查答题卡有没有漏题、格式对不对，再按编号把答案填回模板，生成 Word。</li>
+</ul>
+<p>完整流程是这样的：</p>
+<ol>
+<li>上传研究方案，选择模板；</li>
+<li>系统把方案解析成结构化文本；</li>
+<li><strong>分三组同时起草</strong>：封面到研究流程一组，风险到费用一组，隐私到签字页一组；每组写完先自查；</li>
+<li>三组结果合并，<strong>再做一次全文检查</strong>；</li>
+<li>程序按门牌号把答案填回模板，输出 Word 草稿。</li>
+</ol>
+<p>这里有两个设计取舍：</p>
+<table>
+<thead>
+<tr>
+<th>做法</th>
+<th>好处</th>
+<th>代价</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>按章节分组同时写</td>
+<td>每组只看一部分，更专注、更快；某组出错只重跑那组</td>
+<td>组与组之间可能前后不一致，必须靠合并后的全文检查兜底</td>
+</tr>
+<tr>
+<td>AI 只交答案，不直接改 Word</td>
+<td>格式由程序保证；答案是结构化的，能自动检查有没有漏</td>
+<td>要维护一套答案格式和检查规则</td>
+</tr>
+</tbody></table>
+<p>还有一条贯穿始终的原则：<strong>拿不准就保留，并写明原因。</strong> 因为两种错误的代价完全不对称——多留一段，审稿人几秒钟删掉；少告知一项风险，就是合规问题。</p>
+<hr>
+<h2 id="五、输出设计：让审稿人知道先看哪里"><a href="#五、输出设计：让审稿人知道先看哪里" class="headerlink" title="五、输出设计：让审稿人知道先看哪里"></a>五、输出设计：让审稿人知道先看哪里</h2><p>做到这里我意识到，**这类 AI 产品真正的交付物不是”一份终稿”，而是”一份能被快速核对的草稿”**。所以输出花了不少心思。</p>
+<p><strong>对话里给一段结果说明</strong>，包括三样东西：</p>
+<ol>
+<li>AI 对研究的关键判断，比如”多中心、单臂、开放的 III 期研究”。这一句要最先核对——它判断错了，后面很多块的取舍都会跟着错。</li>
+<li>还需要补充的信息类别：批件号、各医院的研究者和联系人、药物风险标准文字、补贴金额、样本和跨境细节等。</li>
+<li>一组统计，本质上是一份<strong>核对工作量清单</strong>：</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>类别</th>
+<th>用户要不要管</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>放心保留的区块（多为固定文字）</td>
+<td>一般不用</td>
+</tr>
+<tr>
+<td>需关注的保留区块 &#x2F; 控制区块</td>
+<td>要看</td>
+</tr>
+<tr>
+<td>已删除的区块</td>
+<td><strong>要抓紧看</strong>——删错了就是漏告知</td>
+</tr>
+<tr>
+<td>待补字段</td>
+<td>要补</td>
+</tr>
+</tbody></table>
+<p><strong>Word 草稿里有三层核对线索：</strong></p>
+<ul>
+<li><strong>修订痕迹</strong>：AI 删掉的内容不是直接消失，而是以删除线显示，审稿人同意就”接受”，不同意就”拒绝”；</li>
+<li><strong>高亮</strong>：标出需要留意的内容和待填字段；</li>
+<li><strong>批注</strong>：每一块都有一条固定格式的说明——处理动作、对应哪一块、触发了哪条规则、判断依据或拿不准的原因、还缺哪些字段。</li>
+</ul>
+<p>我们建议的核对顺序是：<strong>先核对研究类型判断 → 再看删除线 → 再处理需关注区块 → 最后补字段。</strong> 风险从高到低。</p>
+<hr>
+<h2 id="六、我在项目里做的几件事"><a href="#六、我在项目里做的几件事" class="headerlink" title="六、我在项目里做的几件事"></a>六、我在项目里做的几件事</h2><p>接手这个项目后，我主要做了这几件事：</p>
+<p><strong>1. 把规则体系”读懂”并梳理成业务能看懂的语言。</strong> 逐块读完模板里的规则和提示，归纳出四类规则和它们的分布，写成一份不需要技术背景也能看懂的项目说明，让业务、药物警戒和开发能用同一套语言讨论问题。</p>
+<p><strong>2. 发现并定位了”模板版本没对齐”的问题。</strong> 公司模板在项目进行中升级了一版。我把新旧两版逐段比对，发现章节结构没变，真正的变化可以归成三类：</p>
+<ul>
+<li>用词规范化（只改字）；</li>
+<li><strong>新增”个人信息和生物样本传到境外”的告知段落</strong>（只在研究涉及境外传输时保留）；</li>
+<li>新增”需要另外生成配套文件”的提醒（如怀孕伴侣授权书、个人信息处理告知书）。</li>
+</ul>
+<p>而系统底稿仍是旧版——第一类审稿时会被挑出来，<strong>第二类对涉及境外传输的项目来说是实打实的合规缺口</strong>。由此我推动把”模板版本 → 规则版本 → 底稿版本”绑定起来：模板一升版，必须先更新规则、再更新底稿、再用一个对应场景的项目试跑验证。</p>
+<p><strong>3. 诊断”待确认太多”。</strong> 一份草稿往往有几十处需要人确认。我把它拆成两类：</p>
+<ul>
+<li><strong>真的缺信息</strong>：方案里本来就没有（如各医院联系人、补贴金额），解法是增加补充资料的上传入口，并按负责人（药物警戒 &#x2F; 法务 &#x2F; 预算 &#x2F; 中心）分组派发；</li>
+<li><strong>方案里有、AI 没找到</strong>：这是要优化的部分，需要靠评测定位到具体是哪类信息、哪种表格解析得不好。</li>
+</ul>
+<p><strong>4. 设计评测方案。</strong> 程序检查”0 错误”只说明答题卡填完整了，不说明答对了。我设计的评测是：</p>
+<ul>
+<li>用已定稿、已过伦理的 ICF 做金标准，覆盖 I 期 &#x2F; III 期、肿瘤 &#x2F; 非肿瘤、双盲 &#x2F; 开放、健康人 &#x2F; 患者；</li>
+<li>把定稿 ICF 逐块映射回模板，再和 AI 的答案比；</li>
+<li>看几个数：<strong>留删判断准确率、填空召回率和准确率、访视覆盖率</strong>；外加两条红线：<strong>编造数为 0、标准文字改动数为 0</strong>；</li>
+<li>人工审稿不打 1–5 分，而是每块回答三个问题：事实对吗？该不该在？看得懂吗？这样问题能直接定位到某一块的规则、提示词或解析。</li>
+</ul>
+<p><strong>5. 体验上的去技术化。</strong> 过程卡片里原来是提示词、脚本命令和文件路径，批注里是”COVER&#x2F;L4””always”这类内部写法。对业务用户来说，这些都应该换成”第 1&#x2F;3 组已完成，0 错误，12 项待确认”这样的结果语言。</p>
+<hr>
+<h2 id="七、几个取舍和反思"><a href="#七、几个取舍和反思" class="headerlink" title="七、几个取舍和反思"></a>七、几个取舍和反思</h2><p><strong>1. 规则放在哪里：Word 模板里，还是代码和提示词里？</strong><br>我们选了 Word 模板（以批注形式）。代价是开发改起来没那么方便；好处是<strong>业务方看得懂、能参与维护</strong>。对受控文档来说，规则的”所有权”应该在业务方，这一点比开发效率更重要。</p>
+<p><strong>2. 拿不准时，留还是删？</strong><br>选”留 + 说明原因”。代价是待确认项多，所以<strong>清单体验必须做好</strong>——这是一个设计选择带出来的必然后续工作。</p>
+<p><strong>3. 按章节拆，还是按事实类型拆？</strong><br>项目里讨论过两种架构：一种按章节分组并行（快、实现简单）；另一种先把跨章节共用的事实（当前研究药物、关键设计决定、完整访视矩阵、风险）抽成几份”事实底稿”，再统一写进各章（一致性更好、但更慢）。目前用的是前者，靠全文检查兜底一致性。我的判断是：<strong>当跨章节矛盾成为主要错误来源时，就该往后者演进</strong>——而这要靠评测数据来回答。</p>
+<p><strong>4. 什么时候值得做模板治理？</strong><br>治理成本不低：逐段提规则、做控件、写批注，模板一升版还要跟着更新。我的判断标准很简单——**审稿人会不会逐句问”这句从哪来”**：</p>
+<table>
+<thead>
+<tr>
+<th>情况</th>
+<th>建议</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>受控模板 + 要过伦理或监管（ICF、临床研究报告、申报资料）</td>
+<td>值得完整治理</td>
+</tr>
+<tr>
+<td>有模板，但内部使用、错了代价小</td>
+<td>轻度治理：标出待填字段、写一页规则说明</td>
+</tr>
+<tr>
+<td>没有固定模板，重在分析和观点</td>
+<td>不需要模板治理，重点是证据和推理链</td>
+</tr>
+</tbody></table>
+<p><strong>5. 机器通过 ≠ 可以直接用。</strong><br>“0 错误”只代表结构正确。我们刻意让产品定位为”起草助手，不是定稿人”：出稿和质量分开表达，”草稿已生成”和”还有若干问题待处理”可以同时成立；定稿和签字永远是人。</p>
+<hr>
+<h2 id="八、可以迁移的方法"><a href="#八、可以迁移的方法" class="headerlink" title="八、可以迁移的方法"></a>八、可以迁移的方法</h2><p>这个项目让我总结出一套适用于”<strong>受控模板 + 来源文档 → 合规草稿</strong>“这类问题的方法，可以迁移到分中心版 ICF、临床研究报告、方案摘要等场景：</p>
+<ol>
+<li><strong>模板和生成分开</strong>：模板离线治理、评审、发布；生成只用已发布的版本。</li>
+<li><strong>把暗规则写成明规则</strong>：颜色、括号、”如适用”这些靠人理解的约定，都改写成显式标签。</li>
+<li><strong>有限的规则类型 × 三种处理结果</strong>：固定 &#x2F; 多选一 &#x2F; 看条件 &#x2F; 重复，每块只有”写入 &#x2F; 删除 &#x2F; 保留待确认”三种结果。</li>
+<li><strong>AI 交结构化答案，程序负责排版和检查</strong>：格式和完整性交给确定性的程序。</li>
+<li><strong>每个填入值都带出处</strong>：这是让审稿人敢用的前提。</li>
+<li>**交付物是”可核对的草稿”**：修订痕迹、批注和核对清单，比文字本身更重要。</li>
+</ol>
+<hr>
+<h2 id="九、还没解决的问题"><a href="#九、还没解决的问题" class="headerlink" title="九、还没解决的问题"></a>九、还没解决的问题</h2><ul>
+<li><strong>一个方案对应多份 ICF</strong>：有的研究分好几个部分，各自需要一份 ICF，目前只能生成一份；</li>
+<li><strong>配套文件和分中心版</strong>：怀孕伴侣授权书、分中心专用版等还没支持；</li>
+<li><strong>评测数据</strong>：评测方案已经设计好，正在用已定稿项目跑第一版数据，后续会补上结果。</li>
+</ul>
+<hr>
+<h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2><p>做这个项目最大的收获，是重新理解了”AI 写文档”这件事。</p>
+<p>在受控、高风险的场景里，<strong>AI 的价值不在于写得多好，而在于把人从”搬运和查找”里解放出来，同时把每一个不确定都摆到人面前。</strong> 一份让审稿人十分钟就知道该看哪里的草稿，比一份读起来很完美、却不知道哪里可能有错的终稿，有用得多。</p>
+<p>而产品经理在这里的工作，与其说是设计功能，不如说是**设计”人和 AI 之间的分工边界”**：哪些交给模型判断，哪些交给程序保证，哪些必须留给人。</p>
+</div>
+
+    
+    <nav class="post-nav">
+      <a class="prev" href="/2024/09/28/text20/"><span>← <span class="zh">上一篇</span><span class="en">Previous</span></span><b>准备国庆放假啦</b></a>
+      
+    </nav>
+    
+
+    
+  </article>
+</div></main>
+
+<footer><div class="wrap">
+  <div>© 2022 – 2026 晓子 · <span class="zh">文章除特别声明外著作权归作者所有</span><span class="en">All rights reserved unless otherwise stated</span></div>
+  <div class="fl"><a href="/friends/"><span class="zh">友链</span><span class="en">Friends</span></a></div>
+</div></footer>
+
+<div class="player" id="player">
+  <button id="playBtn" aria-label="Play music"><svg id="playIco" viewBox="0 0 16 16" fill="currentColor"><path d="M4 2.5v11l9-5.5z"/></svg></button>
+  <span class="eq"><i></i><i></i><i></i></span>
+  <span class="song"><b>Refrain</b> · 阿南亮子</span>
+  <audio id="bgm" loop preload="none" src="https://music.163.com/song/media/outer/url?id=22712173.mp3"></audio>
+</div>
+
+<button class="totop" id="totop" aria-label="Back to top">↑</button>
+
+<script src="/js/main.js"></script>
+</body>
+</html>
