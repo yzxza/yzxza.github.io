@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>把 SOP 模板变成 AI 能执行的规则：知情同意书智能撰写项目复盘 · 一只晓zi</title>
+<title>知情同意书智能撰写项目复盘 · 一只晓zi</title>
 <meta name="description" content="用大模型写受控医学文档，难点不在&#34;写得通顺&#34;，而在&#34;错了能不能被发现&#34;。这篇记录我在一个知情同意书（ICF）智能撰写项目里的思考：为什么要先治理模板、系统怎么设计、输出怎么让人核对，以及我踩过的坑。">
 <meta name="author" content="晓子">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
@@ -16,7 +16,7 @@
   try{var l=localStorage.getItem('lang');if(l==='en'){r.dataset.lang='en';r.lang='en';}
   var t=localStorage.getItem('theme');if(t)r.dataset.theme=t;}catch(e){}})();
 </script>
-<link rel="stylesheet" href="/css/style.css?v=1792160960340">
+<link rel="stylesheet" href="/css/style.css?v=1792162737890">
 <meta name="generator" content="Hexo 6.3.0"></head>
 <body>
 
@@ -42,11 +42,11 @@
   <article class="post-wrap">
     <div class="post-head">
       <div class="crumb"><a href="/ai/"><span class="zh">AI 产品</span><span class="en">AI Products</span></a></div>
-      <h1><span class="zh">把 SOP 模板变成 AI 能执行的规则：知情同意书智能撰写项目复盘</span><span class="en">Turning SOP Templates into Rules AI Can Execute: A Retrospective on AI-Drafted Informed Consent Forms</span></h1>
+      <h1><span class="zh">知情同意书智能撰写项目复盘</span><span class="en">Turning SOP Templates into Rules AI Can Execute: A Retrospective on AI-Drafted Informed Consent Forms</span></h1>
       
       <div class="meta">
         <time>2026-10-15</time>
-        <a href="/tags/%E5%8C%BB%E5%AD%A6%E5%86%99%E4%BD%9C/">#<span class="zh">医学写作</span><span class="en">Medical Writing</span></a><a href="/tags/%E7%9F%A5%E6%83%85%E5%90%8C%E6%84%8F%E4%B9%A6/">#<span class="zh">知情同意书</span><span class="en">Informed Consent</span></a><a href="/tags/Agent/">#Agent</a><a href="/tags/%E9%A1%B9%E7%9B%AE%E5%A4%8D%E7%9B%98/">#<span class="zh">项目复盘</span><span class="en">Retrospective</span></a>
+        <a href="/tags/%E5%8C%BB%E5%AD%A6%E5%86%99%E4%BD%9C/">#<span class="zh">医学写作</span><span class="en">Medical Writing</span></a><a href="/tags/%E7%9F%A5%E6%83%85%E5%90%8C%E6%84%8F%E4%B9%A6/">#<span class="zh">知情同意书</span><span class="en">Informed Consent</span></a><a href="/tags/%E9%A1%B9%E7%9B%AE%E5%A4%8D%E7%9B%98/">#<span class="zh">项目复盘</span><span class="en">Retrospective</span></a>
       </div>
       <div class="abs"><span class="zh">用大模型写受控医学文档，难点不在&quot;写得通顺&quot;，而在&quot;错了能不能被发现&quot;。这篇记录我在一个知情同意书（ICF）智能撰写项目里的思考：为什么要先治理模板、系统怎么设计、输出怎么让人核对，以及我踩过的坑。</span><span class="en">When LLMs draft controlled medical documents, the hard part is not fluent writing but whether mistakes can be caught. This retrospective covers an AI project for drafting informed consent forms (ICFs): why the template had to be governed first, how the system was designed, how the output was made easy to review, and the pitfalls along the way.</span></div>
     </div>
@@ -59,7 +59,7 @@
 <h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>项目是<strong>用 AI 起草临床试验的知情同意书（ICF）</strong>。</p>
 <p>做之前我以为这是个”让大模型照着模板写一份文档”的问题。做下来发现，真正的难点完全不在”写”，而在三件事：</p>
 <ol>
-<li>**AI 拿不准的时候，它会不会老实说”不知道”**，而不是编一句看起来很对的话；</li>
+<li><strong>AI 拿不准的时候，它会不会老实说不知道</strong>，而不是编一句看起来很对的话；</li>
 <li><strong>审稿的人能不能快速核对</strong>，而不是从头逐字再读一遍；</li>
 <li><strong>模板一升级，系统能不能跟着变</strong>。</li>
 </ol>
@@ -241,7 +241,7 @@
 </tbody></table>
 <p>还有一条贯穿始终的原则：<strong>拿不准就保留，并写明原因。</strong> 因为两种错误的代价完全不对称——多留一段，审稿人几秒钟删掉；少告知一项风险，就是合规问题。</p>
 <hr>
-<h2 id="五、输出设计：让审稿人知道先看哪里"><a href="#五、输出设计：让审稿人知道先看哪里" class="headerlink" title="五、输出设计：让审稿人知道先看哪里"></a>五、输出设计：让审稿人知道先看哪里</h2><p>做到这里我意识到，**这类 AI 产品真正的交付物不是”一份终稿”，而是”一份能被快速核对的草稿”**。所以输出花了不少心思。</p>
+<h2 id="五、输出设计：让审稿人知道先看哪里"><a href="#五、输出设计：让审稿人知道先看哪里" class="headerlink" title="五、输出设计：让审稿人知道先看哪里"></a>五、输出设计：让审稿人知道先看哪里</h2><p>做到这里我意识到，<strong>这类 AI 产品真正的交付物不是”一份终稿”，而是一份能被快速核对的草稿</strong>。所以输出花了不少心思。</p>
 <p><strong>对话里给一段结果说明</strong>，包括三样东西：</p>
 <ol>
 <li>AI 对研究的关键判断，比如”多中心、单臂、开放的 III 期研究”。这一句要最先核对——它判断错了，后面很多块的取舍都会跟着错。</li>
@@ -652,7 +652,7 @@
     
     <nav class="post-nav">
       <a class="prev" href="/2024/09/28/text20/"><span>← <span class="zh">上一篇</span><span class="en">Previous</span></span><b>准备国庆放假啦</b></a>
-      
+      <a class="next" href="/2026/10/16/%E5%A5%BD%E4%B9%85%E4%B8%8D%E8%A7%81/"><span><span class="zh">下一篇</span><span class="en">Next</span> →</span><b>好久不见</b></a>
     </nav>
     
 
