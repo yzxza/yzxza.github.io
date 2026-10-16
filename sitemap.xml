@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://yzxza.github.io/travel/index.html</loc>
+    <loc>https://yzxza.github.io/tags/index.html</loc>
     
     <lastmod>2026-10-16</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://yzxza.github.io/tags/index.html</loc>
+    <loc>https://yzxza.github.io/travel/index.html</loc>
     
     <lastmod>2026-10-16</lastmod>
     
@@ -38,15 +38,6 @@
   </url>
   
   <url>
-    <loc>https://yzxza.github.io/essay/index.html</loc>
-    
-    <lastmod>2026-10-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://yzxza.github.io/categories/index.html</loc>
     
     <lastmod>2026-10-16</lastmod>
@@ -56,7 +47,61 @@
   </url>
   
   <url>
+    <loc>https://yzxza.github.io/essay/index.html</loc>
+    
+    <lastmod>2026-10-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://yzxza.github.io/friends/index.html</loc>
+    
+    <lastmod>2026-10-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://yzxza.github.io/2022/05/18/text8/</loc>
+    
+    <lastmod>2026-10-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://yzxza.github.io/2022/05/30/text9/</loc>
+    
+    <lastmod>2026-10-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://yzxza.github.io/2026/10/16/%E5%9C%A3%E6%B2%83%E5%B0%94%E5%A4%AB%E5%86%88/</loc>
+    
+    <lastmod>2026-10-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://yzxza.github.io/2026/10/16/%E5%A5%BD%E4%B9%85%E4%B8%8D%E8%A7%81/</loc>
+    
+    <lastmod>2026-10-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://yzxza.github.io/about/about.html</loc>
     
     <lastmod>2026-10-16</lastmod>
     
@@ -173,6 +218,15 @@
   </url>
   
   <url>
+    <loc>https://yzxza.github.io/2022/05/02/text4/</loc>
+    
+    <lastmod>2026-10-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://yzxza.github.io/2022/05/05/text5/</loc>
     
     <lastmod>2026-10-16</lastmod>
@@ -183,60 +237,6 @@
   
   <url>
     <loc>https://yzxza.github.io/2022/05/11/text7/</loc>
-    
-    <lastmod>2026-10-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://yzxza.github.io/2022/05/02/text4/</loc>
-    
-    <lastmod>2026-10-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://yzxza.github.io/2022/05/18/text8/</loc>
-    
-    <lastmod>2026-10-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://yzxza.github.io/2022/05/30/text9/</loc>
-    
-    <lastmod>2026-10-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://yzxza.github.io/2026/10/16/%E5%9C%A3%E6%B2%83%E5%B0%94%E5%A4%AB%E5%86%88/</loc>
-    
-    <lastmod>2026-10-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://yzxza.github.io/2026/10/16/%E5%A5%BD%E4%B9%85%E4%B8%8D%E8%A7%81/</loc>
-    
-    <lastmod>2026-10-16</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://yzxza.github.io/about/about.html</loc>
     
     <lastmod>2026-10-16</lastmod>
     
@@ -380,14 +380,14 @@
   </url>
   
   <url>
-    <loc>https://yzxza.github.io/tags/%E5%AE%8C%E7%BE%8E%E7%9A%84%E4%B8%96%E7%95%8C/</loc>
+    <loc>https://yzxza.github.io/tags/%E7%9B%97%E6%A2%A6%E7%A9%BA%E9%97%B4/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://yzxza.github.io/tags/%E7%9B%97%E6%A2%A6%E7%A9%BA%E9%97%B4/</loc>
+    <loc>https://yzxza.github.io/tags/%E5%AE%8C%E7%BE%8E%E7%9A%84%E4%B8%96%E7%95%8C/</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
