@@ -315,3 +315,8 @@ nav .links a.on{color:var(--accent);font-weight:600}
 .copy .ok{display:none}.copy.done .ok{display:inline}.copy.done .lbl{display:none}
 .plinks .pl{display:flex;align-items:center;gap:10px}
 .phead .label a:hover{color:var(--accent)}
+
+/* article body in two languages */
+html:not([data-lang="en"]) .en-body,html:not([data-lang="en"]) .no-en{display:none}
+html[data-lang="en"] .zh-body{display:none}
+.no-en{font-size:13.5px;color:var(--ink-3);background:var(--bg-2);border:1px solid var(--line);border-radius:8px;padding:8px 14px;margin-bottom:24px}

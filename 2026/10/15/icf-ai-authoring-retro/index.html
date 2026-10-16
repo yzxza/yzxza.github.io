@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>把 SOP 模板变成 AI 能执行的规则：知情同意书智能撰写项目复盘 · 一只晓zi</title>
-<meta name="description" content="产品、旅行与随笔">
+<meta name="description" content="用大模型写受控医学文档，难点不在&#34;写得通顺&#34;，而在&#34;错了能不能被发现&#34;。这篇记录我在一个知情同意书（ICF）智能撰写项目里的思考：为什么要先治理模板、系统怎么设计、输出怎么让人核对，以及我踩过的坑。">
 <meta name="author" content="晓子">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
@@ -16,7 +16,7 @@
   try{var l=localStorage.getItem('lang');if(l==='en'){r.dataset.lang='en';r.lang='en';}
   var t=localStorage.getItem('theme');if(t)r.dataset.theme=t;}catch(e){}})();
 </script>
-<link rel="stylesheet" href="/css/style.css?v=1792159086748">
+<link rel="stylesheet" href="/css/style.css?v=1792160960340">
 <meta name="generator" content="Hexo 6.3.0"></head>
 <body>
 
@@ -27,7 +27,7 @@
   </a>
   <nav>
     <div class="links" id="links">
-      <a href="/" class=""><span class="zh">首页</span><span class="en">Home</span></a><span class="sep"></span><a href="/ai/" class=""><span class="zh">AI 产品</span><span class="en">AI Products</span></a><a href="/travel/" class=""><span class="zh">旅行</span><span class="en">Travel</span></a><a href="/essay/" class="on"><span class="zh">随笔</span><span class="en">Essays</span></a><span class="sep"></span><a href="/archives/" class=""><span class="zh">归档</span><span class="en">Archive</span></a><a href="/about/" class=""><span class="zh">关于</span><span class="en">About</span></a>
+      <a href="/" class=""><span class="zh">首页</span><span class="en">Home</span></a><span class="sep"></span><a href="/ai/" class="on"><span class="zh">AI 产品</span><span class="en">AI Products</span></a><a href="/travel/" class=""><span class="zh">旅行</span><span class="en">Travel</span></a><a href="/essay/" class=""><span class="zh">随笔</span><span class="en">Essays</span></a><span class="sep"></span><a href="/archives/" class=""><span class="zh">归档</span><span class="en">Archive</span></a><a href="/about/" class=""><span class="zh">关于</span><span class="en">About</span></a>
     </div>
     <div class="tools">
       <button class="tbtn lang" id="langBtn" aria-label="中文 / English"><b>中</b> / EN</button>
@@ -41,17 +41,19 @@
 <main class="page"><div class="wrap">
   <article class="post-wrap">
     <div class="post-head">
-      <div class="crumb"><a href="/essay/"><span class="zh">随笔</span><span class="en">Essays</span></a> · <a href="/categories/AI-%E4%BA%A7%E5%93%81%E5%AE%9E%E8%B7%B5/">AI 产品实践</a></div>
-      <h1>把 SOP 模板变成 AI 能执行的规则：知情同意书智能撰写项目复盘</h1>
+      <div class="crumb"><a href="/ai/"><span class="zh">AI 产品</span><span class="en">AI Products</span></a></div>
+      <h1><span class="zh">把 SOP 模板变成 AI 能执行的规则：知情同意书智能撰写项目复盘</span><span class="en">Turning SOP Templates into Rules AI Can Execute: A Retrospective on AI-Drafted Informed Consent Forms</span></h1>
       
       <div class="meta">
         <time>2026-10-15</time>
-        <a href="/tags/Agent/">#Agent</a><a href="/tags/AI-%E4%BA%A7%E5%93%81/">#<span class="zh">AI 产品</span><span class="en">AI Products</span></a><a href="/tags/%E5%8C%BB%E5%AD%A6%E5%86%99%E4%BD%9C/">#医学写作</a><a href="/tags/%E7%9F%A5%E6%83%85%E5%90%8C%E6%84%8F%E4%B9%A6/">#知情同意书</a><a href="/tags/%E9%A1%B9%E7%9B%AE%E5%A4%8D%E7%9B%98/">#项目复盘</a>
+        <a href="/tags/%E5%8C%BB%E5%AD%A6%E5%86%99%E4%BD%9C/">#<span class="zh">医学写作</span><span class="en">Medical Writing</span></a><a href="/tags/%E7%9F%A5%E6%83%85%E5%90%8C%E6%84%8F%E4%B9%A6/">#<span class="zh">知情同意书</span><span class="en">Informed Consent</span></a><a href="/tags/Agent/">#Agent</a><a href="/tags/%E9%A1%B9%E7%9B%AE%E5%A4%8D%E7%9B%98/">#<span class="zh">项目复盘</span><span class="en">Retrospective</span></a>
       </div>
-      
+      <div class="abs"><span class="zh">用大模型写受控医学文档，难点不在&quot;写得通顺&quot;，而在&quot;错了能不能被发现&quot;。这篇记录我在一个知情同意书（ICF）智能撰写项目里的思考：为什么要先治理模板、系统怎么设计、输出怎么让人核对，以及我踩过的坑。</span><span class="en">When LLMs draft controlled medical documents, the hard part is not fluent writing but whether mistakes can be caught. This retrospective covers an AI project for drafting informed consent forms (ICFs): why the template had to be governed first, how the system was designed, how the output was made easy to review, and the pitfalls along the way.</span></div>
     </div>
 
-    <div class="prose"><blockquote>
+    
+    
+      <div class="prose zh-body"><blockquote>
 <p>本文为个人项目复盘，已做脱敏处理：不涉及任何公司、项目编号、药物、研究方案或人员信息。文中的例子均为通用示意。</p>
 </blockquote>
 <h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>项目是<strong>用 AI 起草临床试验的知情同意书（ICF）</strong>。</p>
@@ -347,6 +349,305 @@
 <p>在受控、高风险的场景里，<strong>AI 的价值不在于写得多好，而在于把人从”搬运和查找”里解放出来，同时把每一个不确定都摆到人面前。</strong> 一份让审稿人十分钟就知道该看哪里的草稿，比一份读起来很完美、却不知道哪里可能有错的终稿，有用得多。</p>
 <p>而产品经理在这里的工作，与其说是设计功能，不如说是**设计”人和 AI 之间的分工边界”**：哪些交给模型判断，哪些交给程序保证，哪些必须留给人。</p>
 </div>
+      <div class="prose en-body">
+
+<blockquote>
+<p>This is a personal project retrospective and has been anonymized: it contains no information about any company, project ID, drug, study protocol or person. All examples are generic illustrations.</p>
+</blockquote>
+<h2 id="Before-we-start"><a href="#Before-we-start" class="headerlink" title="Before we start"></a>Before we start</h2><p>The project was about <strong>using AI to draft informed consent forms (ICFs) for clinical trials</strong>.</p>
+<p>Going in, I thought the problem was “have an LLM write a document by following a template.” Coming out, I found that the real difficulty had nothing to do with writing. It came down to three things:</p>
+<ol>
+<li><strong>When the AI is unsure, will it honestly say “I don’t know”</strong> instead of inventing a sentence that sounds right?</li>
+<li><strong>Can reviewers verify the draft quickly</strong>, instead of rereading it word by word?</li>
+<li><strong>When the template is upgraded, can the system keep up?</strong></li>
+</ol>
+<p>The article follows the order problem → judgment → solution → deliverable → what I did → reflections. If you only have two minutes, read sections 2 and 7.</p>
+<hr>
+<h2 id="1-What-an-ICF-is-and-why-it-is-hard-to-write"><a href="#1-What-an-ICF-is-and-why-it-is-hard-to-write" class="headerlink" title="1. What an ICF is, and why it is hard to write"></a>1. What an ICF is, and why it is hard to write</h2><p>An <strong>informed consent form</strong> is the document a patient must read and sign before joining a clinical trial. Without a signature, no study procedure can begin; without the hospital ethics committee’s approval of the form, the study cannot enroll anyone.</p>
+<p>Its relationship to the study protocol is roughly this:</p>
+<ul>
+<li>The <strong>protocol</strong> is a “technical manual” for physicians and regulators: hundreds of pages of specialist language.</li>
+<li>The <strong>ICF</strong> picks out only the parts that matter to the patient and explains them in plain words: which tests they will have, what the risks and benefits are, whether it costs anything, how their privacy is protected, and that they can withdraw at any time.</li>
+</ul>
+<p>A typical ICF has a dozen or so sections, each answering one question a patient might ask:</p>
+<table>
+<thead>
+<tr>
+<th>Section</th>
+<th>The patient’s question</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>About the study &#x2F; study drug</td>
+<td>What drug is being studied? How are groups assigned?</td>
+<td>Protocol, investigator’s brochure</td>
+</tr>
+<tr>
+<td>What happens during the study</td>
+<td>What do I do at each visit?</td>
+<td>Visit schedule in the protocol</td>
+</tr>
+<tr>
+<td>Risks and discomforts &#x2F; pregnancy and contraception</td>
+<td>What are the risks? How long must I use contraception?</td>
+<td>Standard wording from pharmacovigilance, protocol</td>
+</tr>
+<tr>
+<td>Benefits &#x2F; alternative treatments</td>
+<td>What do I gain? What else could I do?</td>
+<td>Protocol, clinical team</td>
+</tr>
+<tr>
+<td>Costs, privacy, samples</td>
+<td>Does it cost money? Where do my data and samples go?</td>
+<td>Budget, site information, regulations</td>
+</tr>
+<tr>
+<td>Withdrawal, contacts, signature page</td>
+<td>Can I leave? Whom do I ask?</td>
+<td>Fixed wording, hospital-specific details</td>
+</tr>
+</tbody></table>
+<p>Drafting an ICF usually means a clinical operations colleague works through a protocol of several hundred pages and a company template of several dozen, section by section — deleting options, filling blanks, rewriting in plain language — and then sends it back and forth for review by pharmacovigilance, medical, legal and other functions.</p>
+<p>It is hard in four ways:</p>
+<ul>
+<li><strong>Scattered information</strong>: visits, test items, contraception duration and prohibited medicines are spread across the protocol, many hidden in the footnotes of large tables.</li>
+<li><strong>Many options</strong>: the same paragraph often has several versions in the template (the study purpose alone has versions for phase I, active comparator, background therapy and so on), and the right one depends on the study design.</li>
+<li><strong>Translation into plain language</strong>: the protocol uses technical terms; the patient has to understand.</li>
+<li><strong>Errors carry compliance risk</strong>: writing “approved” without evidence, altering standard risk wording, or leaving out a required disclosure about cross-border data transfer can all get the form sent back by the ethics committee.</li>
+</ul>
+<p>AI is good at the first three. <strong>The fourth is exactly where AI is most dangerous.</strong> The whole product design is about using the former and guarding against the latter.</p>
+<hr>
+<h2 id="2-The-first-key-judgment-this-is-not-a-writing-problem"><a href="#2-The-first-key-judgment-this-is-not-a-writing-problem" class="headerlink" title="2. The first key judgment: this is not a writing problem"></a>2. The first key judgment: this is not a writing problem</h2><p>The most obvious approach early on was to give the LLM both the protocol and the template and ask it to “write one following the template.”</p>
+<p>The resulting drafts <strong>read smoothly</strong>, but the problems were all hidden:</p>
+<ol>
+<li><strong>What should be deleted wasn’t, and what shouldn’t be was.</strong> Many company templates use font colour to mark what may be edited (black text must stay, blue text can change), but the blue text mixes blanks to fill, writing hints, option labels and candidate wording. A person gets it at a glance; the model can’t tell them apart.</li>
+<li><strong>It invents when unsure.</strong> When it can’t find an approval number, a reimbursement amount or a contraception period, the model tends to fill in a plausible-looking value.</li>
+<li><strong>Fixed wording gets polished.</strong> Clauses that regulations require to stay word-for-word get “smoothed out” by the model.</li>
+<li><strong>Formatting doesn’t survive.</strong> Footer version numbers, numbering, and keeping the signature page on one page are hard to keep stable when the model edits Word directly.</li>
+<li><strong>Reviewers can’t verify.</strong> They can’t tell which sentence came from the template, which the AI wrote, or where in the protocol the evidence is — so they reread everything, and the time saved is spent again.</li>
+</ol>
+<p>So my definition of the problem became:</p>
+<blockquote>
+<p><strong>Drafting an ICF is not open-ended writing. It is making compliance decisions on a controlled template, plus pulling evidence from the protocol to fill in blanks.</strong></p>
+</blockquote>
+<p>That definition shaped everything that followed: <strong>the AI does not write freely; it answers multiple-choice and fill-in-the-blank questions within an explicit set of rules.</strong></p>
+<hr>
+<h2 id="3-The-solution-govern-the-template-first-then-generate"><a href="#3-The-solution-govern-the-template-first-then-generate" class="headerlink" title="3. The solution: govern the template first, then generate"></a>3. The solution: govern the template first, then generate</h2><p>Since the template’s rules were “implicit rules that rely on human understanding,” the first step was to turn them into <strong>explicit rules a machine can execute</strong>. We called this step “template governance,” and it had three parts.</p>
+<h3 id="1-Give-every-block-of-the-template-an-“address”"><a href="#1-Give-every-block-of-the-template-an-“address”" class="headerlink" title="1. Give every block of the template an “address”"></a>1. Give every block of the template an “address”</h3><p>The whole template was cut into about 190 small blocks, each wrapped in a Word content control (a named box), named hierarchically as chapter → paragraph → option, for example:</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Ch2-Study Drug</span><br><span class="line">  ├─ Randomization</span><br><span class="line">  ├─ Blinding</span><br><span class="line">  └─ Treatment Group List</span><br><span class="line">       └─ Treatment Group Example Entry</span><br></pre></td></tr></table></figure>
+
+<p>The rule for cutting was: <strong>any meaning whose “keep or drop” can be judged on its own is one block.</strong> For instance, the male contraception part is split into five blocks — “effects on sperm,” “contraception requirements,” “no sperm donation,” “vasectomy exemption” and “partner pregnancy” — because different studies may need only some of them.</p>
+<h3 id="2-Write-one-processing-rule-for-every-block"><a href="#2-Write-one-processing-rule-for-every-block" class="headerlink" title="2. Write one processing rule for every block"></a>2. Write one processing rule for every block</h3><p>Rules are attached to each box as Word comments. They boil down to four types:</p>
+<table>
+<thead>
+<tr>
+<th>Rule type</th>
+<th>In plain words</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Always keep</td>
+<td>Do not change a word</td>
+<td>Signature page, study-injury clause</td>
+</tr>
+<tr>
+<td>Pick one</td>
+<td>Keep exactly one of several candidates; each candidate states when it applies</td>
+<td>The four versions of the study purpose</td>
+</tr>
+<tr>
+<td>Keep if condition met</td>
+<td>Keep only when the condition holds; <strong>if you can’t judge, keep it and say why</strong></td>
+<td>Keep the MRI risk text only if “the study includes MRI”</td>
+</tr>
+<tr>
+<td>Repeat per actual count</td>
+<td>The template gives one example; write as many as the protocol actually has</td>
+<td>Treatment groups, visit list</td>
+</tr>
+</tbody></table>
+<h3 id="3-Mark-blanks-and-writing-hints-inside-each-block"><a href="#3-Mark-blanks-and-writing-hints-inside-each-block" class="headerlink" title="3. Mark blanks and writing hints inside each block"></a>3. Mark blanks and writing hints inside each block</h3><ul>
+<li><code>[field name]</code> is a blank. Fill it if the protocol has the information; <strong>if not, leave it as is</strong>, so reviewers can see at a glance what’s missing.</li>
+<li><code>&#123;…&#125;</code> is a hint for the AI and is removed after generation.</li>
+</ul>
+<p>These hints capture a great deal of business experience. A few typical ones:</p>
+<ul>
+<li>If no approval number can be found, never write “approved,” and never substitute ethics approval for regulatory approval.</li>
+<li>Oncology-specific phrases such as “subsequent anti-cancer therapy” must not appear in non-oncology studies.</li>
+<li>Single-blind studies must not reuse the double-blind explanation.</li>
+<li>Drug risks may only use standard wording supplied by pharmacovigilance, never AI-written text; but facts the protocol already states (such as which visit includes a pregnancy test) must not be left blank on the grounds that “pharmacovigilance needs to confirm.”</li>
+</ul>
+<p><strong>A complete example</strong> — the “blinding” block:</p>
+<table>
+<thead>
+<tr>
+<th>Part</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Text</td>
+<td>“Neither you nor your study doctor will know in advance which group you are assigned to…”</td>
+</tr>
+<tr>
+<td>Rule</td>
+<td>Keep if condition met: keep only if the protocol is double-blind; if you can’t judge, keep it and say why</td>
+</tr>
+<tr>
+<td>Hint</td>
+<td>Single-blind or other designs cannot use this paragraph as is; write it according to the protocol</td>
+</tr>
+</tbody></table>
+<p>After reading the protocol, the AI can reach only three outcomes: double-blind → keep; open-label → delete; protocol unclear → <strong>keep and mark “to be confirmed.”</strong> All 190 or so blocks are handled the same way.</p>
+<hr>
+<h2 id="4-How-the-system-runs-the-AI-hands-in-an-“answer-sheet-”-the-program-handles-layout-and-checks"><a href="#4-How-the-system-runs-the-AI-hands-in-an-“answer-sheet-”-the-program-handles-layout-and-checks" class="headerlink" title="4. How the system runs: the AI hands in an “answer sheet,” the program handles layout and checks"></a>4. How the system runs: the AI hands in an “answer sheet,” the program handles layout and checks</h2><p>I often explain it to business colleagues with an analogy:</p>
+<ul>
+<li><strong>Template &#x3D; exam paper</strong>: about 190 questions, each with its own answering rules.</li>
+<li><strong>AI &#x3D; examinee</strong>: after reading the protocol, it answers every question — keep or drop, which option, what to fill in, where the evidence is in the protocol, and why it is unsure.</li>
+<li><strong>Program &#x3D; grading machine + typesetter</strong>: it first checks the answer sheet for missing questions and format errors, then puts each answer back into the template by its address and produces the Word file.</li>
+</ul>
+<p>The full flow:</p>
+<ol>
+<li>Upload the protocol and choose the template.</li>
+<li>The system parses the protocol into structured text.</li>
+<li><strong>Three groups draft in parallel</strong>: cover through study procedures, risks through costs, privacy through the signature page; each group self-checks when done.</li>
+<li>The three results are merged, then <strong>a full-document check runs once more</strong>.</li>
+<li>The program puts the answers back into the template by address and outputs a Word draft.</li>
+</ol>
+<p>Two design trade-offs here:</p>
+<table>
+<thead>
+<tr>
+<th>Approach</th>
+<th>Benefit</th>
+<th>Cost</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Draft by chapter groups in parallel</td>
+<td>Each group sees only part of the material, so it is more focused and faster; if one group fails, only that group reruns</td>
+<td>Groups may contradict each other, so the full-document check after merging is the safety net</td>
+</tr>
+<tr>
+<td>AI only hands in answers, never edits Word directly</td>
+<td>The program guarantees formatting; answers are structured, so gaps can be checked automatically</td>
+<td>An answer format and a set of checking rules must be maintained</td>
+</tr>
+</tbody></table>
+<p>One principle runs through everything: <strong>when unsure, keep it and state the reason.</strong> The two kinds of error cost very different amounts — an extra paragraph takes a reviewer a few seconds to delete; a missing risk disclosure is a compliance problem.</p>
+<hr>
+<h2 id="5-Output-design-telling-reviewers-where-to-look-first"><a href="#5-Output-design-telling-reviewers-where-to-look-first" class="headerlink" title="5. Output design: telling reviewers where to look first"></a>5. Output design: telling reviewers where to look first</h2><p>At this point I realized that <strong>the real deliverable of this kind of AI product is not “a final document” but “a draft that can be verified quickly.”</strong> So the output got a lot of attention.</p>
+<p><strong>A results summary in the conversation</strong>, with three things:</p>
+<ol>
+<li>The AI’s key judgment about the study, such as “a multicentre, single-arm, open-label phase III study.” This line should be checked first — if it is wrong, many keep-or-drop decisions downstream will be wrong too.</li>
+<li>The categories of information still needed: approval number, investigators and contacts at each hospital, standard drug-risk wording, reimbursement amounts, sample and cross-border details, and so on.</li>
+<li>A set of counts that is essentially a <strong>verification workload list</strong>:</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>Does the user need to act?</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Blocks kept with confidence (mostly fixed text)</td>
+<td>Usually not</td>
+</tr>
+<tr>
+<td>Kept blocks &#x2F; control blocks needing attention</td>
+<td>Yes, review</td>
+</tr>
+<tr>
+<td>Deleted blocks</td>
+<td><strong>Review first</strong> — a wrong deletion means a missing disclosure</td>
+</tr>
+<tr>
+<td>Fields still to fill</td>
+<td>Yes, fill in</td>
+</tr>
+</tbody></table>
+<p><strong>The Word draft carries three layers of verification cues:</strong></p>
+<ul>
+<li><strong>Tracked changes</strong>: content the AI removed doesn’t simply vanish; it appears as a strikethrough deletion, which the reviewer accepts or rejects.</li>
+<li><strong>Highlights</strong>: mark content that needs attention and fields still to fill.</li>
+<li><strong>Comments</strong>: every block has a comment in a fixed format — the action taken, which block it is, which rule was triggered, the evidence or the reason for uncertainty, and any missing fields.</li>
+</ul>
+<p>The review order we recommend: <strong>check the study-type judgment first → then the deletions → then blocks needing attention → finally fill in fields.</strong> Highest risk to lowest.</p>
+<hr>
+<h2 id="6-What-I-did-on-the-project"><a href="#6-What-I-did-on-the-project" class="headerlink" title="6. What I did on the project"></a>6. What I did on the project</h2><p>After taking over the project, my main contributions were:</p>
+<p><strong>1. Understanding the rule system and translating it into business language.</strong> I read every block’s rules and hints in the template, grouped them into the four rule types and their distribution, and wrote a project explainer that needs no technical background, so business, pharmacovigilance and engineering could discuss issues in the same language.</p>
+<p><strong>2. Finding and pinpointing a template-version mismatch.</strong> The company template was upgraded mid-project. Comparing the old and new versions paragraph by paragraph, I found the chapter structure unchanged; the real changes fell into three groups:</p>
+<ul>
+<li>Standardized wording (word changes only);</li>
+<li><strong>A new disclosure paragraph on “transferring personal information and biological samples abroad”</strong> (kept only when the study involves cross-border transfer);</li>
+<li>New reminders that “companion documents must be generated separately” (such as a pregnant partner authorization form and a personal information processing notice).</li>
+</ul>
+<p>The system’s base template was still the old version. Reviewers would catch the first group; <strong>the second group was a real compliance gap for any project involving cross-border transfer.</strong> As a result I pushed to bind “template version → rule version → base template version” together: whenever the template is upgraded, the rules must be updated first, then the base template, then a trial run on a project that exercises the change.</p>
+<p><strong>3. Diagnosing “too many items to confirm.”</strong> A draft often had dozens of items needing human confirmation. I split them into two kinds:</p>
+<ul>
+<li><strong>Information genuinely missing</strong>: the protocol simply doesn’t contain it (contacts at each hospital, reimbursement amounts). The fix is an upload entry for supplementary materials, with items routed by owner (pharmacovigilance &#x2F; legal &#x2F; budget &#x2F; site).</li>
+<li><strong>In the protocol, but the AI didn’t find it</strong>: this is what needs optimizing, and evaluation is needed to pinpoint which kinds of information and which table formats parse poorly.</li>
+</ul>
+<p><strong>4. Designing the evaluation.</strong> “Zero errors” from the program’s check only means the answer sheet is complete, not that the answers are right. The evaluation I designed:</p>
+<ul>
+<li>Uses finalized ICFs that have passed ethics review as the gold standard, covering phase I &#x2F; phase III, oncology &#x2F; non-oncology, double-blind &#x2F; open-label, healthy volunteers &#x2F; patients;</li>
+<li>Maps each finalized ICF back to the template block by block and compares it with the AI’s answers;</li>
+<li>Tracks a few numbers: <strong>keep&#x2F;drop accuracy, fill-in recall and precision, visit coverage</strong>, plus two red lines: <strong>zero fabricated values and zero changes to standard wording</strong>;</li>
+<li>Asks human reviewers not for a 1–5 score but three questions per block: Are the facts right? Should it be there? Is it understandable? That way every problem traces directly to a block’s rule, prompt or parsing.</li>
+</ul>
+<p><strong>5. Removing technical jargon from the experience.</strong> The progress cards originally showed prompts, script commands and file paths, and comments used internal notation like “COVER&#x2F;L4” and “always.” For business users, all of that should become result language such as “Group 1 of 3 done, 0 errors, 12 items to confirm.”</p>
+<hr>
+<h2 id="7-Trade-offs-and-reflections"><a href="#7-Trade-offs-and-reflections" class="headerlink" title="7. Trade-offs and reflections"></a>7. Trade-offs and reflections</h2><p><strong>1. Where should the rules live: in the Word template, or in code and prompts?</strong><br>We chose the Word template (as comments). The cost is that engineers find it less convenient to change; the benefit is that <strong>the business side can read the rules and help maintain them</strong>. For controlled documents, ownership of the rules belongs with the business side, and that matters more than engineering convenience.</p>
+<p><strong>2. When unsure, keep or delete?</strong><br>We chose “keep and explain why.” The cost is more items to confirm, so <strong>the checklist experience has to be good</strong> — follow-on work that this design choice inevitably creates.</p>
+<p><strong>3. Split by chapter, or by type of fact?</strong><br>We discussed two architectures. One drafts chapter groups in parallel (fast and simple). The other first extracts facts shared across chapters — the current study drug, key design decisions, the full visit matrix, risks — into a few “fact sheets,” then writes them into every chapter (more consistent, but slower). We currently use the first and rely on the full-document check for consistency. My view: <strong>once contradictions across chapters become the main source of errors, it’s time to move to the second</strong> — and only evaluation data can tell us when.</p>
+<p><strong>4. When is template governance worth it?</strong><br>Governance isn’t cheap: extracting rules paragraph by paragraph, building controls, writing comments, and updating everything whenever the template changes. My test is simple — <strong>will reviewers ask “where did this sentence come from?” line by line?</strong></p>
+<table>
+<thead>
+<tr>
+<th>Situation</th>
+<th>Recommendation</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Controlled template + ethics or regulatory review (ICFs, clinical study reports, submission documents)</td>
+<td>Worth full governance</td>
+</tr>
+<tr>
+<td>Template exists, but internal use and low cost of errors</td>
+<td>Light governance: mark fields to fill and write a one-page rule guide</td>
+</tr>
+<tr>
+<td>No fixed template; the value is in analysis and argument</td>
+<td>No template governance needed; focus on evidence and the reasoning chain</td>
+</tr>
+</tbody></table>
+<p><strong>5. Passing the machine check ≠ ready to use.</strong><br>“Zero errors” only means the structure is correct. We deliberately positioned the product as “a drafting assistant, not the finalizer”: generation and quality are reported separately, “draft generated” and “several issues still open” can both be true, and finalizing and signing always belong to people.</p>
+<hr>
+<h2 id="8-A-transferable-method"><a href="#8-A-transferable-method" class="headerlink" title="8. A transferable method"></a>8. A transferable method</h2><p>The project gave me a method for problems of the form “<strong>controlled template + source documents → compliant draft</strong>,” which carries over to site-specific ICFs, clinical study reports, protocol synopses and similar documents:</p>
+<ol>
+<li><strong>Separate the template from generation</strong>: govern, review and publish the template offline; generation only uses published versions.</li>
+<li><strong>Turn implicit rules into explicit ones</strong>: conventions like colour, brackets and “if applicable” all become explicit labels.</li>
+<li><strong>A small set of rule types × three outcomes</strong>: always keep &#x2F; pick one &#x2F; keep if condition met &#x2F; repeat, and every block ends in one of three outcomes — write, delete, or keep pending confirmation.</li>
+<li><strong>The AI submits structured answers; the program handles layout and checks</strong>: formatting and completeness go to deterministic code.</li>
+<li><strong>Every filled-in value carries its source</strong>: this is what makes reviewers willing to trust it.</li>
+<li><strong>The deliverable is a verifiable draft</strong>: tracked changes, comments and the review checklist matter more than the prose itself.</li>
+</ol>
+<hr>
+<h2 id="9-Open-problems"><a href="#9-Open-problems" class="headerlink" title="9. Open problems"></a>9. Open problems</h2><ul>
+<li><strong>One protocol, several ICFs</strong>: some studies have several parts, each needing its own ICF; today only one can be generated.</li>
+<li><strong>Companion documents and site-specific versions</strong>: pregnant partner authorization forms, site-specific versions and the like are not yet supported.</li>
+<li><strong>Evaluation data</strong>: the evaluation design is ready, and the first round is running on finalized projects; results will be added later.</li>
+</ul>
+<hr>
+<h2 id="Closing"><a href="#Closing" class="headerlink" title="Closing"></a>Closing</h2><p>The biggest lesson from this project was a new understanding of what “AI writing documents” means.</p>
+<p>In controlled, high-stakes settings, <strong>AI’s value is not in how well it writes, but in freeing people from moving and searching for information while putting every uncertainty in front of them.</strong> A draft that tells a reviewer in ten minutes where to look is far more useful than a final document that reads perfectly but hides where it might be wrong.</p>
+<p>And the product manager’s job here is less about designing features than about <strong>designing the division of labour between people and AI</strong>: what the model decides, what the program guarantees, and what must stay with people.</p>
+</div>
+    
 
     
     <nav class="post-nav">
